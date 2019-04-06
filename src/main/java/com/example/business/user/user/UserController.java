@@ -14,7 +14,6 @@ public class UserController extends BaseController {
     @RequestMapping(value = "/user/{id}")
     @ResponseBody
     User get(@PathVariable(value = "id",required = true)Long id){
-        userService
-        return null;
+       return userService.getEntity(id);
     }
 }

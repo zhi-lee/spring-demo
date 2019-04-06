@@ -10,7 +10,7 @@ public abstract class BaseService<M extends Mapper,T extends Entity> {
      * @param id
      * @return
      */
-    T getEntity(Long id){
+    public T getEntity(Long id){
         return (T) mapper.get(id);
     }
 
@@ -19,7 +19,9 @@ public abstract class BaseService<M extends Mapper,T extends Entity> {
      * @param t
      * @return
      */
-    Integer countByEntity(T t){
+    public Integer countByEntity(T t){
         return mapper.countByExample(t);
     }
+
+
 }
