@@ -1,4 +1,4 @@
-package com.example.business.user.user;
+package com.example.mapper.user;
 
 import com.example.common.base.dao.Mapper;
 
