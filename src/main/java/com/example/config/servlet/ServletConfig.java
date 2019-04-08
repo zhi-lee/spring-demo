@@ -44,7 +44,8 @@ public class ServletConfig implements ApplicationContextAware {
     private ITemplateResolver templateResolver(){
         SpringResourceTemplateResolver resolver=new SpringResourceTemplateResolver();
         resolver.setApplicationContext(context);
-        resolver.setPrefix("/WEB-INF/template");
+        resolver.setPrefix("/WEB-INF/template/");
+        resolver.setSuffix(".html");
         resolver.setTemplateMode(TemplateMode.HTML);
         return resolver;
     }
