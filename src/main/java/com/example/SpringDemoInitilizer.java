@@ -2,7 +2,7 @@ package com.example;
 
 import com.example.config.data.DataSourceConfig;
 import com.example.config.servlet.ServletConfig;
-import com.example.shiro.ShiroConfig;
+import com.example.config.shiro.ShiroConfig;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
 import javax.servlet.Filter;

@@ -1,4 +1,4 @@
-package com.example.shiro;
+package com.example.config.shiro;
 
 import org.springframework.context.annotation.Configuration;
 
