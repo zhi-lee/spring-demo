@@ -90,17 +90,6 @@
             <artifactId>joda-time</artifactId>
             <version>2.10.1</version>
         </dependency>
-        <!--shiro-->
-        <dependency>
-            <groupId>org.apache.shiro</groupId>
-            <artifactId>shiro-web</artifactId>
-            <version>1.2.3</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.shiro</groupId>
-            <artifactId>shiro-spring</artifactId>
-            <version>1.2.3</version>
-        </dependency>
 
         <!--数据库配置-->
         <dependency>
@@ -150,7 +139,15 @@
                     </systemProperties>
                 </configuration>
             </plugin>
-
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.0</version>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
         </plugins>
         <!--打包的时候，不同版本的 Eclipse  还有IDEA 会有打包打不进去Mapper.xml 文件，这个时候要加如下代码（群里同学提供的）。-->
         <resources>
