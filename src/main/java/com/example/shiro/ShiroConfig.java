@@ -1,5 +1,6 @@
-package com.example.config.shiro;
+package com.example.shiro;
 
+import com.example.annotation.profile.Development;
 import org.springframework.context.annotation.Configuration;
 
 /**
@@ -8,6 +9,7 @@ import org.springframework.context.annotation.Configuration;
  * @description shiro配置文件
  */
 @Configuration
+@Development
 public class ShiroConfig {
 
 }

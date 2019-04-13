@@ -1,8 +1,10 @@
 package com.example;
 
+import com.example.cache.CacheConfig;
 import com.example.config.data.DataSourceConfig;
 import com.example.config.servlet.ServletConfig;
-import com.example.config.shiro.ShiroConfig;
+import com.example.shiro.ShiroConfig;
+import com.example.swagger.SwaggerConfig;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
 import javax.servlet.Filter;
@@ -14,7 +16,11 @@ public class SpringDemoInitilizer extends AbstractAnnotationConfigDispatcherServ
     protected Class<?>[] getRootConfigClasses() {
         return new Class[]{
                 //dataSource
-                DataSourceConfig.class
+                DataSourceConfig.class,
+                //cache
+                CacheConfig.class,
+                //swagger
+                SwaggerConfig.class
         };
     }
 
