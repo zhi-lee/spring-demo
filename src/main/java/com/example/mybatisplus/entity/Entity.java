@@ -1,4 +1,4 @@
-package com.example.common.base.entity;
+package com.example.mybatisplus.entity;
 
 import org.joda.time.DateTime;
 

@@ -1,4 +1,4 @@
-package com.example.common.base.entity;
+package com.example.mybatisplus.entity;
 
 public class PageEntityQuery extends Entity {
     //当前页号

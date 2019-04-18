@@ -1,4 +1,4 @@
-package com.example.common.page;
+package com.example.mybatisplus.page;
 
 import java.util.HashMap;
 import java.util.List;

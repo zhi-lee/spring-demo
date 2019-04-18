@@ -1,7 +1,7 @@
 package com.example.common.base.manager;
 
-import com.example.common.base.dao.Mapper;
-import com.example.common.base.entity.Entity;
+import com.example.mybatisplus.dao.Mapper;
+import com.example.mybatisplus.entity.Entity;
 
 public abstract class BaseService<M extends Mapper,T extends Entity> {
     M mapper;

@@ -1,7 +1,7 @@
-package com.example.common.base.dao;
+package com.example.mybatisplus.dao;
 
 
-import com.example.common.base.entity.Entity;
+import com.example.mybatisplus.entity.Entity;
 
 public interface Mapper {
     Object get(long id);

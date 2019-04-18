@@ -1,6 +1,6 @@
 package com.example.common.response;
 
-import com.example.common.base.entity.Entity;
+import com.example.mybatisplus.entity.Entity;
 
 public class Result<T extends Entity> {
     //响应码
