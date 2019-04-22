@@ -6,6 +6,23 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Thymeleaf 3 example</title>
+    <style type="text/css">
+        body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { margin:0; padding:0; }
+        body, button, input, select, textarea { font:12px/1.5 tahoma, arial, \5b8b\4f53; }
+        h1, h2, h3, h4, h5, h6 { font-size:100%; }
+        address, cite, dfn, em, var { font-style:normal; }
+        code, kbd, pre, samp { font-family:courier new, courier, monospace; }
+        small { font-size:12px; }
+        ul, ol { list-style:none; }
+        a { text-decoration:none; }
+        a:hover { text-decoration:underline; }
+        sup { vertical-align:text-top; }
+        sub { vertical-align:text-bottom; }
+        legend { color:#000; }
+        fieldset, img { border:0; }
+        button, input, select, textarea { font-size:100%; }
+        table { border-collapse:collapse; border-spacing:0; }
+    </style>
     <script type="text/javascript">
         var performance=window.performance||window.msPerformance||window.webkitPerformance;
         if (performance){
@@ -14,14 +31,12 @@
     </script>
 </head>
 <body>
-<h1>User hobbies</h1>
-<ul>
-    <li th:each="hobby : ${hobbies}"
-        th:text="${hobby}">
-        Cinema
-    </li>
-</ul>
-<button type="button" onclick="javascript:void(0)">Show secret code</button>
-<div id="code"></div>
+<header>
+    <div th:include="common::header">
+    </div>
+</header>
+<div th:include="common::navbar"></div>
+<section th:include="common::content"></section>
+<footer th:include="common::footer"></footer>
 </body>
 </html>
