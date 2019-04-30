@@ -42,12 +42,12 @@ public class SpringDemoInitilizer extends AbstractAnnotationConfigDispatcherServ
 
     /**
      * 配置filter
-     * @param servletContext
-     * @param filter
      * @return
+     * @link javax.servlet.Filter
      */
     @Override
-    protected FilterRegistration.Dynamic registerServletFilter(ServletContext servletContext, Filter filter) {
-        return null;
+    protected Filter[] getServletFilters() {
+        return super.getServletFilters();
     }
+
 }
