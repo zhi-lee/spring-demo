@@ -14,23 +14,30 @@ public class IPUtils {
 
     }
 
-    private static final String IP_REGX = "((25[0-5]|2[0-4]\\d|((1\\d{2})|([1-9]?\\d)))\\.){3}(25[0-5]|2[0-4]\\d|((1\\d{2})|([1-9]?\\d)))";
+    private static final String IP_REGX = "((25[0-5]|2[0-4]\\d|((1\\d{2})|([0-9]?\\d)))\\.){3}(25[0-5]|2[0-4]\\d|((1\\d{2})|([0-9]?\\d)))";
 
-    private static final Pattern REGEX=Pattern.compile(IP_REGX);
+    private static final Pattern REGEX = Pattern.compile(IP_REGX);
 
-    public static Long transferStringIpToInt(String ip) {
+    /**
+     * <p>字符串id转成Long</p>
+     *
+     * @param ip
+     * @return
+     * @throws Exception
+     */
+    public static Long transferStringIpToInt(String ip) throws Exception {
+        Long result = null;
         //分割
-        if (Objects.nonNull(ip) || "".equals(ip)) {
+        if (Objects.isNull(ip) || "".equals(ip))
             throw new NullPointerException("ip 不能为空");
-        }
-        String[] part = ip.split("\\.");
-        if (REGEX.matcher(ip).matches()) {
+        if (!REGEX.matcher(ip).matches())
             throw new IllegalArgumentException("ip 格式错误");
+        String[] idArr = ip.split("\\.");
+        result = new Long(0);
+        for (int i = 3; i >= 0; i--) {
+            result += Long.parseLong(idArr[3 - i]) << (8 * i);
         }
-        return Long.parseLong(part[0]) << 24 + Long.parseLong(part[1]) << 16 + Long.parseLong(part[2]) << 8 + Long.parseLong(part[3]);
+        return result;
     }
 
-    public static void main(String[] args) {
-        System.out.println(2 << 0);
-    }
 }
