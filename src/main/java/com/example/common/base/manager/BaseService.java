@@ -11,7 +11,7 @@ public abstract class BaseService<M extends Mapper,T extends Entity> {
      * @return
      */
     public T getEntity(Long id){
-        return (T) mapper.get(id);
+        return (T) mapper.getByPrimaryKey(id);
     }
 
     /**

@@ -21,5 +21,10 @@ public interface Mapper<T> {
      */
     T getByExample(T query);
 
+    /**
+     * <p>根据相关条件查询相关内容</p>
+     * @param query
+     * @return
+     */
     int countByExample(T query);
 }
