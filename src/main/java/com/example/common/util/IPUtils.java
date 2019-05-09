@@ -40,4 +40,21 @@ public class IPUtils {
         return result;
     }
 
+    /**
+     * <p>Long转换成字符串</p>
+     *
+     * @param ip
+     * @return
+     * @throws Exception
+     */
+    public static String transferLongToStringIp(Long ip) throws Exception {
+        if (Objects.isNull(ip) || ip < 0L || ip > 4294967295L)
+            throw new IllegalArgumentException("ip 参数错误");
+        StringBuilder ipStr = new StringBuilder();
+        for (int i = 3; i >= 0; i--) {
+            ipStr.append(ip >> (i * 3) & 0xFF).append(".");
+        }
+        return ipStr.deleteCharAt(ipStr.length() - 1).toString();
+    }
+
 }
