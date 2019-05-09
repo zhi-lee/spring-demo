@@ -25,7 +25,7 @@ public class IPUtils {
      * @return
      * @throws Exception
      */
-    public static Long transferStringIpToInt(String ip) throws Exception {
+    public static Long transferStringIpToInt(String ip) throws IllegalArgumentException {
         Long result = null;
         //分割
         if (Objects.isNull(ip) || "".equals(ip))
@@ -47,7 +47,7 @@ public class IPUtils {
      * @return
      * @throws Exception
      */
-    public static String transferLongToStringIp(Long ip) throws Exception {
+    public static String transferLongToStringIp(Long ip) throws IllegalArgumentException {
         if (Objects.isNull(ip) || ip < 0L || ip > 4294967295L)
             throw new IllegalArgumentException("ip 参数错误");
         StringBuilder ipStr = new StringBuilder();
