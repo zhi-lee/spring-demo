@@ -50,10 +50,11 @@
         <module>spring-demo-mybatisplus</module>
         <module>spring-demo-common</module>
         <module>spring-demo-cache</module>
+        <module>spring-demo-auth</module>
     </modules>
     <groupId>com.example</groupId>
     <artifactId>spring-demo</artifactId>
-    <version>${global.version</version>
+    <version>${global.version}</version>
     <!--集中定义依赖版本号-->
     <properties>
         <logback.version>1.7.21</logback.version>
