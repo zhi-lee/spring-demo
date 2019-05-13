@@ -38,6 +38,12 @@
         </repository>
     </repositories>
 
+    <!--<parent>-->
+        <!--<groupId>org.springframework</groupId>-->
+        <!--<artifactId>spring-framework-bom</artifactId>-->
+        <!--<version>4.3.20.RELEASE</version>-->
+    <!--</parent>-->
+
 
     <modules>
         <module>spring-demo-web</module>

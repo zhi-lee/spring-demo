@@ -10,7 +10,7 @@ import java.util.List;
  */
 @Data
 @AllArgsConstructor
-public class PageEntity {
+public class PageEntity extends Entity {
     //当前页号
     int currentPageNum;
     //总条数
