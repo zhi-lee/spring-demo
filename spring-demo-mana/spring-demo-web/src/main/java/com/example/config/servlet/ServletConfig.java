@@ -17,7 +17,7 @@ import org.thymeleaf.templateresolver.ITemplateResolver;
 
 @Configuration
 @EnableWebMvc
-@ComponentScan(basePackages = "com.example.business")
+@ComponentScan(basePackages = "com.example.client")
 public class ServletConfig implements ApplicationContextAware {
     ApplicationContext context;
     @Override
