@@ -1,8 +1,7 @@
 package com.example.response;
 
-import com.example.base.entity.Entity;
 
-public class Result<T extends Entity> {
+public class Result<T> {
     //响应码
     int code;
     //响应消息

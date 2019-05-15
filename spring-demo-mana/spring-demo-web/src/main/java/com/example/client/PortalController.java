@@ -4,6 +4,7 @@ import com.example.base.controller.BaseController;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;
@@ -17,8 +18,8 @@ import javax.servlet.ServletResponse;
 @RestController
 public class PortalController extends BaseController {
 
-    @RequestMapping(value = {"/", "/index"}, method={RequestMethod.GET})
-    String index(ServletRequest req, ServletResponse resp) {
-        return "index";
+    @RequestMapping(value = {"/", "/index"}, method = {RequestMethod.GET})
+    ModelAndView index(ServletRequest req, ServletResponse resp) {
+        return new ModelAndView("index");
     }
 }
