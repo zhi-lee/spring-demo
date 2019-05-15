@@ -3,8 +3,10 @@ package com.example.base.entity;
 import lombok.Data;
 import org.joda.time.DateTime;
 
+import java.io.Serializable;
+
 @Data
-public class Entity {
+public class Entity implements Serializable {
     //主键
     Long id;
     //更新时间

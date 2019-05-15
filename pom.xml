@@ -46,18 +46,18 @@
 
 
     <modules>
-        <module>spring-demo-web</module>
         <module>spring-demo-mybatisplus</module>
         <module>spring-demo-common</module>
         <module>spring-demo-cache</module>
         <module>spring-demo-auth</module>
+        <module>spring-demo-mana</module>
     </modules>
     <groupId>com.example</groupId>
     <artifactId>spring-demo</artifactId>
     <version>${global.version}</version>
     <!--集中定义依赖版本号-->
     <properties>
-        <logback.version>1.7.21</logback.version>
+        <logback.version>1.1.7</logback.version>
         <slf4j.version>1.7.21</slf4j.version>
         <servlet.version>3.0.1</servlet.version>
         <thymeleaf.version>3.0.0.RELEASE</thymeleaf.version>
@@ -67,6 +67,9 @@
         <spring.version>4.3.20.RELEASE</spring.version>
         <swagger2.version>2.9.2</swagger2.version>
         <lombok.version>1.16.20</lombok.version>
+        <joda.time.version>2.10.1</joda.time.version>
+        <junit.jupiter.version>5.4.2</junit.jupiter.version>
+        <validator.version>4.3.1.Final</validator.version>
         <global.version>1.0-SNAPSHOT</global.version>
     </properties>
     <dependencyManagement>
@@ -134,6 +137,15 @@
                 <version>${swagger2.version}</version>
             </dependency>
 
+
+
+            <!-- Bean Validation (JSR-303) -->
+            <dependency>
+                <artifactId>hibernate-validator</artifactId>
+                <groupId>org.hibernate</groupId>
+                <version>${validator.version}</version>
+            </dependency>
+
         </dependencies>
 
     </dependencyManagement>
@@ -142,18 +154,25 @@
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>jcl-over-slf4j</artifactId>
-            <version>1.7.21</version>
+            <version>${slf4j.version}</version>
         </dependency>
         <dependency>
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-classic</artifactId>
-            <version>1.1.7</version>
+            <version>${logback.version}</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/junit/junit -->
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+            <version>${junit.jupiter.version}</version>
+            <scope>test</scope>
         </dependency>
         <!--datetime-->
         <dependency>
             <groupId>joda-time</groupId>
             <artifactId>joda-time</artifactId>
-            <version>2.10.1</version>
+            <version>${joda.time.version}</version>
         </dependency>
 
         <!--        lombok-->
@@ -163,6 +182,8 @@
             <version>${lombok.version}</version>
             <scope>provided</scope>
         </dependency>
+
+
     </dependencies>
 
     <profiles>

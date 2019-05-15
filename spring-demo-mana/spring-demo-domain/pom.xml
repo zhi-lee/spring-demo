@@ -3,27 +3,25 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>spring-demo</artifactId>
+        <artifactId>spring-demo-mana</artifactId>
         <groupId>com.example</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>spring-demo-auth</artifactId>
-    <packaging>war</packaging>
+    <artifactId>spring-demo-domain</artifactId>
 
-    <name>spring-demo-auth Maven Webapp</name>
+    <name>spring-demo-domain</name>
     <!-- FIXME change it to the project's website -->
-    <url>http://www.example.com</url>
-
     <properties>
-
+        <global.version>1.0-SNAPSHOT</global.version>
     </properties>
 
     <dependencies>
         <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-webmvc</artifactId>
+            <groupId>com.example</groupId>
+            <artifactId>spring-demo-mybatisplus</artifactId>
+            <version>${global.version}</version>
         </dependency>
     </dependencies>
 
