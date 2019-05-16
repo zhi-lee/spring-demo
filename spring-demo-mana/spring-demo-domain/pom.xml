@@ -26,6 +26,11 @@
             <artifactId>spring-demo-mybatisplus</artifactId>
             <version>${global.version}</version>
         </dependency>
+        <dependency>
+            <groupId>com.example</groupId>
+            <artifactId>spring-demo-common</artifactId>
+            <version>${global.version}</version>
+        </dependency>
     </dependencies>
 
     <build>
