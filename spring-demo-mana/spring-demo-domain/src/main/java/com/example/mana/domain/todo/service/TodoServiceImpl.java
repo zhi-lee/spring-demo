@@ -1,5 +1,8 @@
 package com.example.mana.domain.todo.service;
 
+
+import com.example.common.exception.BusinessException;
+import com.example.common.exception.ResourceNotFoundException;
 import com.example.common.message.ResultMessage;
 import com.example.common.message.ResultMessages;
 import com.example.mana.domain.todo.model.Todo;
@@ -20,7 +23,7 @@ public class TodoServiceImpl implements TodoService {
         Todo todo = todoRepository.findOneByPrimaryKey(todoId);
         if (null == todo) {
             ResultMessages messages = ResultMessages.error();
-            messages.add(ResultMessage.fromText("[E404] The requested Todo is not found.(id=" + todoId + ")"));
+            messages.add(ResultMessage.fromText("The requested Todo is not found.(id=" + todoId + ")"));
             throw new ResourceNotFoundException(messages);
         }
         return todo;
@@ -36,7 +39,7 @@ public class TodoServiceImpl implements TodoService {
         long unfinishedCount = todoRepository.countByFinished(false);
         if (unfinishedCount > 5) {
             ResultMessages messages = ResultMessages.error();
-            messages.add(ResultMessage.fromText("[E001] The count of un-finished Todo must not be over 5."));
+            messages.add(ResultMessage.fromText("The count of un-finished Todo must not be over 5."));
             throw new BusinessException(messages);
         }
         String todoId = UUID.randomUUID().toString();
@@ -52,7 +55,7 @@ public class TodoServiceImpl implements TodoService {
         Todo todo = findOne(todoId);
         if (todo.isFinished()) {
             ResultMessages messages = ResultMessages.error();
-            messages.add(ResultMessage.fromText("[E002] The requested Todo is already finished (id=" + todoId + ")"));
+            messages.add(ResultMessage.fromText("The requested Todo is already finished (id=" + todoId + ")"));
             throw new BusinessException(messages);
         }
         todo.setFinished(true);
