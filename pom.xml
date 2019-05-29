@@ -46,11 +46,13 @@
 
 
     <modules>
+
         <module>spring-demo-mybatisplus</module>
-        <module>spring-demo-common</module>
-        <module>spring-demo-cache</module>
         <module>spring-demo-auth</module>
         <module>spring-demo-mana</module>
+        <module>spring-demo-common</module>
+        <module>spring-demo-cache</module>
+        <module>spring-demo-webservices</module>
     </modules>
     <groupId>com.example</groupId>
     <artifactId>spring-demo</artifactId>
@@ -71,6 +73,7 @@
         <junit.jupiter.version>5.4.2</junit.jupiter.version>
         <validator.version>4.3.1.Final</validator.version>
         <global.version>1.0-SNAPSHOT</global.version>
+        <thymeleaf.layout.version>2.3.0</thymeleaf.layout.version>
     </properties>
     <dependencyManagement>
         <dependencies>
@@ -110,6 +113,11 @@
                 <groupId>org.thymeleaf</groupId>
                 <artifactId>thymeleaf</artifactId>
                 <version>${thymeleaf.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>nz.net.ultraq.thymeleaf</groupId>
+                <artifactId>thymeleaf-layout-dialect</artifactId>
+                <version>${thymeleaf.layout.version}</version>
             </dependency>
 
             <!--数据库配置-->
