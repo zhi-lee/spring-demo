@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/spring-demo-auth/spring-demo-auth.iml" filepath="$PROJECT_DIR$/spring-demo-auth/spring-demo-auth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-demo-cache/spring-demo-cache.iml" filepath="$PROJECT_DIR$/spring-demo-cache/spring-demo-cache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-demo-common/spring-demo-common.iml" filepath="$PROJECT_DIR$/spring-demo-common/spring-demo-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-demo-mana/spring-demo-mana.iml" filepath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-demo-mybatisplus/spring-demo-mybatisplus.iml" filepath="$PROJECT_DIR$/spring-demo-mybatisplus/spring-demo-mybatisplus.iml" />
+    </modules>
+  </component>
+</project>
