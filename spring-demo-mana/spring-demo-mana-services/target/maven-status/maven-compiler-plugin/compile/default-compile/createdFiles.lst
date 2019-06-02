@@ -1,0 +1,5 @@
+com\example\mana\todo\entity\Todo.class
+com\example\mana\todo\repository\TodoRepository.class
+com\example\mana\todo\repository\TodoRepositoryImpl.class
+com\example\mana\todo\service\TodoService.class
+com\example\mana\todo\service\TodoServiceImpl.class

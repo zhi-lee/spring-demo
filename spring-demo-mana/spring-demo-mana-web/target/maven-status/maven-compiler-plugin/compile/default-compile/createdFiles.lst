@@ -1,3 +1,1 @@
-com\example\mana\config\ServletConfig.class
-com\example\mana\client\PortalController.class
-com\example\mana\ManaInitializerStarter.class
+com\example\mana\ManaAuthInitializerStarter.class

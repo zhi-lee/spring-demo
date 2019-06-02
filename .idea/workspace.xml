@@ -2,79 +2,144 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aef0b43d-f1b6-45ce-9690-1da99245f3c2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-demo-common/src/main/java/com/example/common/exception/ResultMessagesNotificationException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-common/src/main/java/com/example/common/message/ResultMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-services/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/java/com/example/mana/ManaInitializerStarter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/java/com/example/mana/client/PortalController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/java/com/example/mana/config/ServletConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/WEB-INF/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/WEB-INF/layout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/WEB-INF/templates/common.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/WEB-INF/templates/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/WEB-INF/templates/header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/2.1.21/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/jquery/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/jquery/version.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-webservices/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-webservices/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-webservices/spring-demo-webservices-services/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-webservices/spring-demo-webservices-web/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo-auth/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo-auth/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo-auth/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo-cache/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo-cache/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo-common/src/java/com/example/common/exception/BusinessException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo-common/src/java/com/example/common/exception/ExceptionType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo-common/src/java/com/example/common/exception/ResourceNotFoundException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo-common/src/java/com/example/common/exception/ResultMessagesNotificationException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo-common/src/java/com/example/common/exception/StandradExceptionType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo-common/src/java/com/example/common/message/ResultMessage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo-common/src/java/com/example/common/message/ResultMessageType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo-common/src/java/com/example/common/message/ResultMessages.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo-common/src/java/com/example/common/message/StandardResultMessageType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo-mana/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo-mana/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo-mana/spring-demo-domain/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo-mana/spring-demo-domain/src/main/java/com/example/mana/domain/todo/model/Todo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo-mana/spring-demo-domain/src/main/java/com/example/mana/domain/todo/repository/TodoRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo-mana/spring-demo-domain/src/main/java/com/example/mana/domain/todo/repository/TodoRepositoryImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo-mana/spring-demo-domain/src/main/java/com/example/mana/domain/todo/service/TodoService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo-mana/spring-demo-domain/src/main/java/com/example/mana/domain/todo/service/TodoServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo-mana/spring-demo-domain/src/main/java/com/example/mana/domain/user/model/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo-mana/spring-demo-domain/src/main/java/com/example/mana/domain/user/repository/UserRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo-mana/spring-demo-domain/src/main/java/com/example/mana/domain/user/repository/UserRepositoryImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo-mana/spring-demo-domain/src/main/java/com/example/mana/domain/user/service/UserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo-mana/spring-demo-domain/src/main/java/com/example/mana/domain/user/service/UserServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo-mana/spring-demo-web/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo-mana/spring-demo-web/src/main/java/com/example/mana/web/SpringDemoInitilizer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo-mana/spring-demo-web/src/main/java/com/example/mana/web/base/controller/BaseController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo-mana/spring-demo-web/src/main/java/com/example/mana/web/client/PortalController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo-mana/spring-demo-web/src/main/java/com/example/mana/web/client/mana/user/UserController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo-mana/spring-demo-web/src/main/java/com/example/mana/web/client/mana/user/form/UserForm.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo-mana/spring-demo-web/src/main/java/com/example/mana/web/client/mana/user/output/UserOutput.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo-mana/spring-demo-web/src/main/java/com/example/mana/web/client/todo/TodoController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo-mana/spring-demo-web/src/main/java/com/example/mana/web/client/todo/form/TodoForm.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo-mana/spring-demo-web/src/main/java/com/example/mana/web/client/todo/output/TodoOutput.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo-mana/spring-demo-web/src/main/java/com/example/mana/web/config/data/DataSourceConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo-mana/spring-demo-web/src/main/java/com/example/mana/web/config/servlet/ServletConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo-mana/spring-demo-web/src/main/java/com/example/mana/web/profile/Development.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo-mana/spring-demo-web/src/main/java/com/example/mana/web/profile/Production.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo-mana/spring-demo-web/src/main/java/com/example/mana/web/profile/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo-mana/spring-demo-web/src/main/java/com/example/mana/web/response/Result.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo-mana/spring-demo-web/src/main/java/com/example/mana/web/shiro/ShiroConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo-mana/spring-demo-web/src/main/java/com/example/mana/web/swagger/SwaggerConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo-mana/spring-demo-web/src/main/resources/logback.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo-mana/spring-demo-web/src/main/test/com/example/TestCase01.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo-mana/spring-demo-web/src/main/webapp/WEB-INF/template/common.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo-mana/spring-demo-web/src/main/webapp/WEB-INF/template/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo-mana/spring-demo-web/src/main/webapp/portal.js" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/2.1.21/require.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo-mybatisplus/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo-mybatisplus/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo-mybatisplus/src/main/java/com/example/mana/domain/mybatisplus/dao/EntityQuery.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo-mybatisplus/src/main/java/com/example/mana/domain/mybatisplus/dao/PageEntityQuery.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo-mybatisplus/src/main/java/com/example/mana/domain/mybatisplus/mapper/Mapper.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/java/com/example/mana/ManaAuthInitializerStarter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/java/com/example/mana/config/DataConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/layout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/2.4.5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/css/layui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/css/layui.mobile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/css/modules/code.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/css/modules/layer/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/css/modules/layer/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/font/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/font/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/font/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/font/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/10.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/11.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/13.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/14.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/15.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/17.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/18.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/19.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/20.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/21.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/22.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/23.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/25.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/26.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/27.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/28.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/29.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/30.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/31.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/33.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/34.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/35.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/36.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/37.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/38.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/39.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/40.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/41.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/42.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/43.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/44.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/45.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/46.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/47.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/48.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/49.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/50.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/51.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/52.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/53.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/54.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/55.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/56.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/57.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/58.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/59.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/60.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/61.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/62.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/63.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/64.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/65.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/66.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/67.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/68.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/69.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/7.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/70.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/71.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/8.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/9.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/lay/modules/carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/lay/modules/code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/lay/modules/colorpicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/lay/modules/element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/lay/modules/flow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/lay/modules/form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/lay/modules/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/lay/modules/laydate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/lay/modules/layedit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/lay/modules/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/lay/modules/laypage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/lay/modules/laytpl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/lay/modules/mobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/lay/modules/rate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/lay/modules/slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/lay/modules/table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/lay/modules/tree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/lay/modules/upload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/lay/modules/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/layui.all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/layui.init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/layui.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-demo-auth/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-demo-auth/target/spring-demo-auth.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/java/com/example/mana/ManaInitializerStarter.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/java/com/example/mana/ManaInitializerStarter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/WEB-INF/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/WEB-INF/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/WEB-INF/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/WEB-INF/layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/2.1.21/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/2.1.21/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/jquery/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/jquery/jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/jquery/version.txt" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/jquery/version.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-demo-mana/target/classes/com/example/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-demo-mana/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-demo-mana/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-demo-mana/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-demo-mana/target/spring-demo-mana.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-demo-webservices/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-demo-webservices/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-demo-webservices/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-demo-webservices/target/spring-demo-webservices.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/conf/logging.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/conf/tomcat-users.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/conf/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/logs/access_log.2019-05-09" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/spring-demo-auth/target/" />
@@ -91,40 +156,66 @@
     <ignored path="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-services/target/" />
     <ignored path="$PROJECT_DIR$/spring-demo-webservices/spring-demo-webservices-web/target/" />
     <ignored path="$PROJECT_DIR$/spring-demo-webservices/spring-demo-webservices-services/target/" />
+    <ignored path="$PROJECT_DIR$/spring-demo-auth/spring-demo-auth-web/target/" />
+    <ignored path="$PROJECT_DIR$/spring-demo-auth/spring-demo-auth-service/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL for 5.1 - demo_mana@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL for 5.1 - demo_mana@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL for 5.1 - demo_mana@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="demo_mana: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="spring-demo" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="16" selection-start-line="15" selection-end-line="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/WEB-INF/layout.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="33" column="37" lean-forward="true" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
+            <state relative-caret-position="826">
+              <caret line="59" column="49" selection-start-line="59" selection-start-column="49" selection-end-line="59" selection-end-column="49" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/WEB-INF/templates/common.html">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" column="46" lean-forward="true" selection-start-line="3" selection-end-line="4" />
+            <state relative-caret-position="481">
+              <caret line="300" column="23" selection-start-line="300" selection-start-column="23" selection-end-line="300" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -132,26 +223,23 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/java/com/example/mana/ManaInitializerStarter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="12" column="20" selection-start-line="12" selection-end-line="15" />
+            <state relative-caret-position="224">
+              <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#555#556#0" expanded="true" />
-                <element signature="e#595#596#0" expanded="true" />
+                <element signature="e#336#337#0" expanded="true" />
+                <element signature="e#371#372#0" expanded="true" />
+                <element signature="e#681#682#0" expanded="true" />
+                <element signature="e#721#722#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/java/com/example/mana/client/PortalController.java">
+        <entry file="file://$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/java/com/example/mana/ManaAuthInitializerStarter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#472#473#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="70">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -159,8 +247,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/java/com/example/mana/config/ServletConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="470">
-              <caret line="52" column="55" lean-forward="true" selection-start-line="52" selection-start-column="55" selection-end-line="52" selection-end-column="55" />
+            <state relative-caret-position="420">
+              <caret line="44" column="32" selection-start-line="44" selection-start-column="32" selection-end-line="44" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/java/com/example/mana/config/auth/AuthConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="215">
+              <caret line="19" column="61" lean-forward="true" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -169,37 +266,46 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/apache-maven-3.6.1/resposity/com/alibaba/druid/0.2.23/druid-0.2.23.jar!/support/http/resources/spring-detail.html">
+        <entry file="file://$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/java/com/example/mana/config/DataConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="108" column="51" selection-start-line="108" selection-start-column="51" selection-end-line="108" selection-end-column="51" />
+            <state relative-caret-position="196">
+              <caret line="14" column="69" selection-start-line="14" selection-start-column="69" selection-end-line="14" selection-end-column="69" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/WEB-INF/index.html">
+        <entry file="file://$PROJECT_DIR$/spring-demo-auth/spring-demo-auth-web/src/main/java/com/example/auth/web/config/DataConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+            <state relative-caret-position="294">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/2.1.21/app.js">
+        <entry file="file://$PROJECT_DIR$/spring-demo-auth/spring-demo-auth-web/src/main/java/com/example/auth/web/config/AuthConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+            <state relative-caret-position="67">
+              <caret line="20" column="50" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/index.js">
+        <entry file="file://$PROJECT_DIR$/spring-demo-auth/spring-demo-auth-web/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+            <state relative-caret-position="322">
+              <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="30" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -212,9 +318,9 @@
         <option value="Enum" />
         <option value="Interface" />
         <option value="AnnotationType" />
-        <option value="Class" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -222,70 +328,78 @@
     <findStrings>
       <find>PAGE_NOT_FOUND_LOG_CATEGORY</find>
       <find>scripts</find>
+      <find>settings</find>
+      <find>logoutSuccessHandler</find>
+      <find>'utf-8'</find>
     </findStrings>
+    <replaceStrings>
+      <replace>setting</replace>
+      <replace>utf-</replace>
+      <replace>utf8</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="dev" />
       </map>
     </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/spring-demo-mana/spring-demo-domain/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-demo-common/src/java/com/example/common/message/ResultMessage.java" />
-        <option value="$PROJECT_DIR$/spring-demo-common/src/java/com/example/common/message/ResultMessages.java" />
-        <option value="$PROJECT_DIR$/spring-demo-common/src/java/com/example/common/example/ResultMessagesExceptionAdapter.java" />
-        <option value="$PROJECT_DIR$/spring-demo-common/src/java/com/example/common/example/ResourceNotFoundException.java" />
-        <option value="$PROJECT_DIR$/spring-demo-common/src/java/com/example/common/example/ResultMessagesExceptionTransfer.java" />
-        <option value="$PROJECT_DIR$/spring-demo-common/src/java/com/example/common/example/ExceptionType.java" />
-        <option value="$PROJECT_DIR$/spring-demo-common/src/java/com/example/common/example/StandradExceptionType.java" />
-        <option value="$PROJECT_DIR$/spring-demo-common/src/java/com/example/common/example/ResultMessagesNotificationException.java" />
-        <option value="$PROJECT_DIR$/spring-demo-common/src/java/com/example/common/exception/StandradExceptionType.java" />
-        <option value="$PROJECT_DIR$/spring-demo-common/src/java/com/example/common/exception/BusinessException.java" />
-        <option value="$PROJECT_DIR$/spring-demo-common/src/java/com/example/common/exception/ResourceNotFoundException.java" />
-        <option value="$PROJECT_DIR$/spring-demo-mana/spring-demo-domain/src/main/java/com/example/mana/domain/todo/service/TodoServiceImpl.java" />
-        <option value="$PROJECT_DIR$/spring-demo-common/src/java/com/example/common/exception/ResultMessagesNotificationException.java" />
-        <option value="$PROJECT_DIR$/spring-demo-mana/spring-demo-web/src/main/java/com/example/mana/web/client/todo/converter/TodoConverter.java" />
-        <option value="$PROJECT_DIR$/spring-demo-mana/spring-demo-web/src/main/java/com/example/mana/web/client/todo/form/TodoForm.java" />
-        <option value="$PROJECT_DIR$/spring-demo-mana/spring-demo-web/src/main/webapp/WEB-INF/template/common.html" />
-        <option value="$PROJECT_DIR$/spring-demo-mana/spring-demo-web/src/main/webapp/scripts/app.js" />
-        <option value="$PROJECT_DIR$/spring-demo-mana/spring-demo-web/src/main/webapp/scripts/require-config.js" />
-        <option value="$PROJECT_DIR$/spring-demo-mana/spring-demo-web/src/main/java/com/example/mana/web/config/api/StandradVersion.java" />
-        <option value="$PROJECT_DIR$/spring-demo-mana/spring-demo-web/src/main/java/com/example/mana/web/config/api/StandradVersionCondition.java" />
-        <option value="$PROJECT_DIR$/spring-demo-mana/spring-demo-web/src/main/java/com/example/mana/web/client/todo/TodoController.java" />
-        <option value="$PROJECT_DIR$/spring-demo-mana/spring-demo-web/src/main/java/com/example/mana/web/config/servlet/ServletConfig.java" />
-        <option value="$PROJECT_DIR$/spring-demo-mybatisplus/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-demo-auth/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-demo-webservices/readme.txt" />
-        <option value="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-services/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-demo-webservices/spring-demo-webservices-web/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-demo-mana/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-demo-common/src/main/java/com/example/common/message/ResultMessage.java" />
-        <option value="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/java/com/example/mana/ManaStarter.java" />
-        <option value="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/pages/index.html" />
-        <option value="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/WEB-INF/pages/templates/footer.html" />
         <option value="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/WEB-INF/pages/templates/header.html" />
         <option value="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/2.1.21/require.min.js" />
         <option value="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/WEB-INF/pages/templates/common.html" />
         <option value="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/app.js" />
         <option value="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/WEB-INF/views/templates/common.html" />
-        <option value="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/java/com/example/mana/ManaInitializerStarter.java" />
-        <option value="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/java/com/example/mana/client/PortalController.java" />
         <option value="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/resources/logback.xml" />
         <option value="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/jquery/version.txt" />
-        <option value="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/jquery/jquery.min.js" />
+        <option value="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/java/com/example/mana/config/ServletConfig.java" />
         <option value="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/WEB-INF/templates/common.html" />
         <option value="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/index.js" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/java/com/example/mana/config/ServletConfig.java" />
-        <option value="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/WEB-INF/index.html" />
+        <option value="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/jquery/jquery.min.js" />
         <option value="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/2.1.21/app.js" />
+        <option value="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/java/com/example/mana/client/PortalController.java" />
+        <option value="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/layout.js" />
+        <option value="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/WEB-INF/index.html" />
+        <option value="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/layui.init.js" />
+        <option value="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/all.js" />
         <option value="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/WEB-INF/layout.html" />
+        <option value="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/java/com/example/mana/client/todo/TodoController.java" />
+        <option value="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-services/src/main/java/com/example/todo/entity/Todo.java" />
+        <option value="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-services/src/main/java/com/example/todo/repository/TodoRepository.java" />
+        <option value="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-services/src/main/java/com/example/todo/service/TodoService.java" />
+        <option value="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-services/src/main/java/com/example/todo/repository/TodoRepositoryImpl.java" />
+        <option value="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-services/src/main/java/com/example/todo/service/TodoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-services/src/main/java/com/example/service/todo/service/TodoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-services/src/main/java/com/example/mana/todo/entity/Todo.java" />
+        <option value="$PROJECT_DIR$/spring-demo-common/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-demo-common/src/main/java/com/example/common/exception/ResultMessagesNotificationException.java" />
+        <option value="$PROJECT_DIR$/spring-demo-common/src/main/java/com/example/common/exception/ResourceNotFoundException.java" />
+        <option value="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-services/src/main/java/com/example/mana/todo/repository/TodoRepository.java" />
+        <option value="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-services/src/main/java/com/example/mana/todo/repository/TodoRepositoryImpl.java" />
+        <option value="$PROJECT_DIR$/spring-demo-common/src/main/java/com/example/common/exception/BusinessException.java" />
+        <option value="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-services/src/main/java/com/example/mana/todo/service/TodoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/spring-demo-auth/spring-demo-auth-service/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-demo-auth/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-demo-common/src/main/java/com/example/common/message/ResultMessage.java" />
+        <option value="$PROJECT_DIR$/spring-demo-auth/spring-demo-auth-web/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-demo-auth/spring-demo-auth-web/src/main/java/com/example/auth/web/AuthInitializerStarter.java" />
+        <option value="$PROJECT_DIR$/spring-demo-auth/spring-demo-auth-web/src/main/java/com/example/auth/web/config/DataConfig.java" />
+        <option value="$PROJECT_DIR$/spring-demo-auth/spring-demo-auth-web/src/main/java/com/example/auth/web/config/MultiAuthConfig.java" />
+        <option value="$PROJECT_DIR$/spring-demo-auth/spring-demo-auth-web/src/main/java/com/example/auth/web/config/AuthConfig.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/dd163893-f37e-42e9-b673-4b29d89780d8/console.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/df6dc95d-c543-459f-a62a-8a9c1fce7128/console.sql" />
+        <option value="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-services/src/main/resources/mana.sql" />
+        <option value="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-services/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/java/com/example/mana/config/DataConfig.java" />
+        <option value="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/java/com/example/mana/ManaInitializerStarter.java" />
+        <option value="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/java/com/example/mana/ManaAuthInitializerStarter.java" />
+        <option value="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/java/com/example/mana/config/auth/AuthConfig.java" />
       </list>
     </option>
   </component>
@@ -299,18 +413,55 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spring-demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spring-demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spring-demo-common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spring-demo-common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spring-demo-mana-services" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spring-demo-mana-services" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spring-demo-mana-web Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spring-demo-mana-web Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
   <component name="MavenRunner">
     <option name="vmOptions" value="-DarchetypeCatalog=local" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="591" />
-    <option name="y" value="150" />
-    <option name="width" value="1981" />
-    <option name="height" value="1326" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="406" />
+    <option name="y" value="399" />
+    <option name="width" value="1980" />
+    <option name="height" value="1298" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -325,7 +476,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -336,6 +486,16 @@
             <path>
               <item name="spring-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-demo-auth" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-demo-common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-demo" type="462c0819:PsiDirectoryNode" />
               <item name="spring-demo-mana" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -385,108 +545,41 @@
               <item name="spring-demo-mana-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mana" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-demo-mana" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-demo-mana-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-demo-mana" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-demo-mana-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-demo-mana" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-demo-mana-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
-              <item name="2.1.21" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-demo-mana" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-demo-mana-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-demo-mana" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-demo-mana-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-demo-mybatisplus" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-demo-mybatisplus" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-demo-mybatisplus" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.3555133" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Nick\IdeaProjects\spring-demo\spring-demo-mana\spring-demo-mana-web\src\main\webapp\scripts" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Nick\IdeaProjects\spring-demo\spring-demo-mana\spring-demo-mana-web\src\main\webapp\scripts\plugins" />
       <recent name="C:\Users\Nick\IdeaProjects\spring-demo\spring-demo-mana\spring-demo-mana-web\src\main\webapp\WEB-INF" />
       <recent name="C:\Users\Nick\IdeaProjects\spring-demo\spring-demo-mana\spring-demo-mana-web\src\main\webapp\scripts\2.1.21" />
       <recent name="C:\Users\Nick\IdeaProjects\spring-demo\spring-demo-mana\spring-demo-mana-web\src\main\webapp\WEB-INF\views\templates" />
       <recent name="C:\Users\Nick\IdeaProjects\spring-demo\spring-demo-mana\spring-demo-mana-web\src\main\webapp\WEB-INF\views" />
-      <recent name="C:\Users\Nick\IdeaProjects\spring-demo\spring-demo-mana\spring-demo-web\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -553,6 +646,10 @@
       <method v="2" />
     </configuration>
   </component>
+  <component name="StructureViewFactory">
+    <option name="AUTOSCROLL_MODE" value="false" />
+    <option name="AUTOSCROLL_FROM_SOURCE" value="true" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -580,7 +677,20 @@
       <workItem from="1559063204177" duration="550000" />
       <workItem from="1559136110983" duration="1538000" />
       <workItem from="1559137679918" duration="1642000" />
-      <workItem from="1559140822131" duration="10335000" />
+      <workItem from="1559140822131" duration="11756000" />
+      <workItem from="1559222696513" duration="4212000" />
+      <workItem from="1559230744389" duration="8514000" />
+      <workItem from="1559322561266" duration="2147000" />
+      <workItem from="1559355402187" duration="15079000" />
+      <workItem from="1559386337117" duration="2486000" />
+      <workItem from="1559393228473" duration="4057000" />
+      <workItem from="1559406792454" duration="379000" />
+      <workItem from="1559407191896" duration="613000" />
+      <workItem from="1559439521451" duration="70000" />
+      <workItem from="1559439799392" duration="11948000" />
+      <workItem from="1559478702634" duration="4944000" />
+      <workItem from="1559484161397" duration="559000" />
+      <workItem from="1559485580223" duration="5530000" />
     </task>
     <task id="LOCAL-00001" summary="调试及其更换环境">
       <created>1557934245535</created>
@@ -603,81 +713,108 @@
       <option name="project" value="LOCAL" />
       <updated>1558148497519</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="新建分支">
+      <created>1559151556323</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1559151556323</updated>
+    </task>
+    <task id="LOCAL-00005" summary="新加spring security">
+      <created>1559490451493</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1559490451494</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52011000" />
+    <option name="totallyTimeSpent" value="113970000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="591" y="150" width="1981" height="1326" extended-state="0" />
+    <frame x="406" y="399" width="1980" height="1298" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info auto_hide="true" x="1603" y="502" width="610" height="804" id="Project" order="0" weight="0.21723238" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info x="1603" y="502" width="610" height="804" id="Project" order="0" sideWeight="0.478125" visible="true" weight="0.2168234" />
+      <window_info id="Structure" order="1" sideWeight="0.521875" side_tool="true" weight="0.19203188" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Web" order="7" side_tool="true" />
+      <window_info id="Favorites" order="6" side_tool="true" weight="0.32950392" />
+      <window_info id="Web" order="7" sideWeight="0.5176471" side_tool="true" weight="0.1921671" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33663365" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.43361345" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3296875" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36919105" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.45390624" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32899022" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.30546874" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
-      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.32890624" />
-      <window_info anchor="bottom" id="Messages" order="14" weight="0.3296875" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.29921874" />
+      <window_info anchor="bottom" id="Dependency Viewer" order="15" weight="0.47890624" />
+      <window_info anchor="bottom" id="Database Console" order="16" weight="0.3296875" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.32741514" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.49203187" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32948208" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2782746" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" x="1603" y="502" width="610" height="804" id="Project" order="0" sideWeight="0.478125" visible="true" weight="0.16533865" />
+      <window_info id="Structure" order="1" sideWeight="0.521875" side_tool="true" weight="0.19203188" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Web" order="7" side_tool="true" />
+      <window_info id="Favorites" order="6" side_tool="true" weight="0.32950392" />
+      <window_info id="Web" order="7" sideWeight="0.5176471" side_tool="true" weight="0.1921671" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3325378" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3656352" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3296875" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33562824" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4182156" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32899022" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.30546874" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
-      <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="13" weight="0.32899022" />
-      <window_info anchor="bottom" id="Messages" order="14" weight="0.32980457" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.32890624" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.29921874" />
+      <window_info anchor="bottom" id="Dependency Viewer" order="15" weight="0.47890624" />
+      <window_info anchor="bottom" id="Database Console" order="16" weight="0.3296875" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.19150642" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.49268547" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32948208" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" />
@@ -690,7 +827,9 @@
     <MESSAGE value="调试及其更换环境" />
     <MESSAGE value="新增resultmessage类" />
     <MESSAGE value="新增exception类" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增exception类" />
+    <MESSAGE value="新建分支" />
+    <MESSAGE value="新加spring security" />
+    <option name="LAST_COMMIT_MESSAGE" value="新加spring security" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -705,287 +844,412 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spring-demo-mana/spring-demo-web/src/main/java/com/example/mana/web/client/mana/user/output/UserOutput.java" />
-    <entry file="file://$PROJECT_DIR$/spring-demo-mana/spring-demo-web/src/main/java/com/example/mana/web/client/todo/form/TodoForm.java" />
-    <entry file="file://$PROJECT_DIR$/spring-demo-mana/spring-demo-web/src/main/webapp/WEB-INF/template/common.html" />
-    <entry file="jar://D:/apache-maven-3.6.1/resposity/org/springframework/spring-web/4.3.20.RELEASE/spring-web-4.3.20.RELEASE.jar!/org/springframework/web/SpringServletContainerInitializer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-demo-mana/spring-demo-web/src/main/webapp/portal.js" />
-    <entry file="file://$PROJECT_DIR$/spring-demo-mana/spring-demo-web/src/main/webapp/scripts/require-config.js" />
-    <entry file="file://$PROJECT_DIR$/spring-demo-mana/spring-demo-web/src/main/webapp/scripts/main.js" />
-    <entry file="file://$PROJECT_DIR$/spring-demo-mana/spring-demo-web/src/main/java/com/example/mana/web/config/servlet/ServletConfig.java" />
-    <entry file="file://$PROJECT_DIR$/spring-demo-mana/spring-demo-web/src/main/java/com/example/mana/web/config/api/StandradVersion.java" />
-    <entry file="file://$PROJECT_DIR$/spring-demo-mana/spring-demo-web/src/main/java/com/example/mana/web/config/api/StandradVersionCondition.java" />
-    <entry file="file://$PROJECT_DIR$/spring-demo-mana/spring-demo-web/src/main/java/com/example/mana/web/client/todo/TodoController.java" />
-    <entry file="file://$PROJECT_DIR$/spring-demo-mana/spring-demo-web/src/main/webapp/WEB-INF/template/index.html" />
-    <entry file="jar://D:/apache-maven-3.6.1/resposity/org/springframework/spring-webmvc/4.3.20.RELEASE/spring-webmvc-4.3.20.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/condition/RequestCondition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-service/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/spring-demo-webservices/readme.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="819">
-          <caret line="39" column="11" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-demo-cache/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-demo-webservices/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-demo-auth/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-demo-webservices/spring-demo-webservices-web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-services/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-demo-webservices/spring-demo-webservices-services/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-demo-common/src/main/java/com.example.common.message/Message.java" />
-    <entry file="file://$PROJECT_DIR$/spring-demo-common/src/main/java/com/example/common/exception/ResultMessagesNotificationException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="48" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-demo-common/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://D:/apache-maven-3.6.1/resposity/org/projectlombok/lombok/1.16.20/lombok-1.16.20.jar!/lombok/Data.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-demo-common/src/main/java/com/example/common/message/ResultMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-demo-mybatisplus/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/WEB-INF/templates/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/WEB-INF/templates/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/2.1.21/require.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="25530" selection-start-column="25530" selection-end-column="25530" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/apache-maven-3.6.1/resposity/com/alibaba/druid/0.2.23/druid-0.2.23.jar!/support/http/resources/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/apache-maven-3.6.1/resposity/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.jar!/javax/servlet/GenericServlet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/apache-maven-3.6.1/resposity/org/springframework/spring-webmvc/4.3.20.RELEASE/spring-webmvc-4.3.20.RELEASE-sources.jar!/org/springframework/web/servlet/FrameworkServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="739">
-          <caret line="136" column="52" selection-start-line="136" selection-start-column="52" selection-end-line="136" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/apache-maven-3.6.1/resposity/org/springframework/spring-webmvc/4.3.20.RELEASE/spring-webmvc-4.3.20.RELEASE-sources.jar!/org/springframework/web/servlet/HttpServletBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="81" column="54" selection-start-line="81" selection-start-column="54" selection-end-line="81" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/apache-maven-3.6.1/resposity/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.jar!/javax/servlet/http/HttpServlet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3591">
-          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/resources/logback.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/apache-maven-3.6.1/resposity/org/springframework/spring-webmvc/4.3.20.RELEASE/spring-webmvc-4.3.20.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1105">
-          <caret line="156" column="48" lean-forward="true" selection-start-line="156" selection-start-column="48" selection-end-line="156" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/java/com/example/mana/client/PortalController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#472#473#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-demo-mana/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/jquery/jquery.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="22132" lean-forward="true" selection-start-line="3" selection-start-column="22132" selection-end-line="3" selection-end-column="22132" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/jquery/version.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" selection-start-column="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/apache-maven-3.6.1/resposity/com/alibaba/druid/0.2.23/druid-0.2.23.jar!/support/http/resources/spring-detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="108" column="51" selection-start-line="108" selection-start-column="51" selection-end-line="108" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="16" selection-start-line="15" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="116" column="11" selection-start-line="116" selection-start-column="11" selection-end-line="120" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/java/com/example/mana/ManaInitializerStarter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="12" column="20" selection-start-line="12" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#555#556#0" expanded="true" />
-            <element signature="e#595#596#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/java/com/example/mana/config/ServletConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="52" column="55" lean-forward="true" selection-start-line="52" selection-start-column="55" selection-end-line="52" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/2.1.21/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+        <state relative-caret-position="98">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/index.js">
+    <entry file="file://$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/all.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+        <state>
+          <caret column="30" selection-start-column="30" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/WEB-INF/templates/common.html">
+    <entry file="file://$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/layout.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="46" lean-forward="true" selection-start-line="3" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/WEB-INF/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        <state>
+          <caret column="41" selection-start-column="41" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/WEB-INF/layout.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="33" column="37" lean-forward="true" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
+        <state relative-caret-position="574">
+          <caret line="41" column="35" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/java/com/example/mana/client/PortalController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="19" column="65" selection-start-line="19" selection-start-column="65" selection-end-line="19" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#687#688#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/WEB-INF/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/java/com/example/mana/client/todo/TodoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/java/com/example/mana/client/todo/TodoForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-services/src/main/java/com/example/mana/todo/entity/Todo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="2" selection-start-line="2" selection-end-line="4" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-demo-common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-services/src/main/java/com/example/mana/todo/service/TodoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/RuntimeException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-369">
+          <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-services/src/main/java/com/example/mana/todo/repository/TodoRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-demo-common/src/main/java/com/example/common/exception/BusinessException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+          <folding>
+            <element signature="e#155#156#0" expanded="true" />
+            <element signature="e#187#188#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-services/src/main/java/com/example/mana/todo/service/TodoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="29" column="37" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-demo-auth/spring-demo-auth-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-demo-auth/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-demo-common/src/main/java/com/example/common/exception/ResultMessagesNotificationException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="4" column="77" selection-start-line="4" selection-start-column="77" selection-end-line="4" selection-end-column="77" />
+          <folding>
+            <element signature="e#248#249#0" expanded="true" />
+            <element signature="e#271#272#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-services/src/main/java/com/example/mana/todo/repository/TodoRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#386#387#0" expanded="true" />
+            <element signature="e#413#414#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-demo-common/src/main/java/com/example/common/message/ResultMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-demo-auth/spring-demo-auth-web/src/main/java/com/example/auth/web/config.java" />
+    <entry file="file://$PROJECT_DIR$/spring-demo-common/src/main/java/com/example/common/exception/ResourceNotFoundException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+          <folding>
+            <element signature="e#371#372#0" expanded="true" />
+            <element signature="e#422#423#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/apache-maven-3.6.1/resposity/org/springframework/security/spring-security-web/4.2.3.RELEASE/spring-security-web-4.2.3.RELEASE.jar!/org/springframework/security/web/context/AbstractSecurityWebApplicationInitializer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-168">
+          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/apache-maven-3.6.1/resposity/org/springframework/security/spring-security-web/4.2.3.RELEASE/spring-security-web-4.2.3.RELEASE.jar!/org/springframework/security/web/context/SecurityContextPersistenceFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/apache-maven-3.6.1/resposity/org/springframework/security/spring-security-core/4.2.3.RELEASE/spring-security-core-4.2.3.RELEASE.jar!/org/springframework/security/core/userdetails/User.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/apache-maven-3.6.1/resposity/org/springframework/security/spring-security-web/4.2.3.RELEASE/spring-security-web-4.2.3.RELEASE.jar!/org/springframework/security/web/authentication/rememberme/TokenBasedRememberMeServices.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/apache-maven-3.6.1/resposity/org/springframework/security/spring-security-config/4.2.3.RELEASE/spring-security-config-4.2.3.RELEASE.jar!/org/springframework/security/config/annotation/web/configurers/LogoutConfigurer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="75" column="31" selection-start-line="75" selection-start-column="31" selection-end-line="75" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/apache-maven-3.6.1/resposity/org/springframework/security/spring-security-web/4.2.3.RELEASE/spring-security-web-4.2.3.RELEASE.jar!/org/springframework/security/web/authentication/logout/SimpleUrlLogoutSuccessHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-demo-auth/spring-demo-auth-web/src/main/java/com/example/auth/web/AuthInitializerStarter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="13" column="61" selection-start-line="13" selection-start-column="61" selection-end-line="13" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#406#407#0" expanded="true" />
+            <element signature="e#441#442#0" expanded="true" />
+            <element signature="e#509#510#0" expanded="true" />
+            <element signature="e#544#545#0" expanded="true" />
+            <element signature="e#605#606#0" expanded="true" />
+            <element signature="e#641#642#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/apache-maven-3.6.1/resposity/org/springframework/security/spring-security-config/4.2.3.RELEASE/spring-security-config-4.2.3.RELEASE.jar!/org/springframework/security/config/annotation/authentication/configurers/provisioning/JdbcUserDetailsManagerConfigurer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="77" column="47" selection-start-line="77" selection-start-column="47" selection-end-line="77" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-demo-auth/spring-demo-auth-web/src/main/java/com/example/auth/web/config/MultiAuthConfig.java" />
+    <entry file="jar://D:/apache-maven-3.6.1/resposity/org/springframework/security/spring-security-web/4.2.3.RELEASE/spring-security-web-4.2.3.RELEASE.jar!/org/springframework/security/web/authentication/AbstractAuthenticationProcessingFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1019">
+          <caret line="143" lean-forward="true" selection-start-line="143" selection-end-line="143" />
+          <folding>
+            <element signature="e#6873#6874#0" expanded="true" />
+            <element signature="e#6922#6923#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/apache-maven-3.6.1/resposity/org/springframework/security/spring-security-core/4.2.3.RELEASE/spring-security-core-4.2.3.RELEASE.jar!/org/springframework/security/authentication/ProviderManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="77" column="32" lean-forward="true" selection-start-line="77" selection-start-column="32" selection-end-line="77" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/apache-maven-3.6.1/resposity/org/springframework/security/spring-security-core/4.2.3.RELEASE/spring-security-core-4.2.3.RELEASE.jar!/org/springframework/security/authentication/AuthenticationManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/apache-maven-3.6.1/resposity/org/springframework/security/spring-security-web/4.2.3.RELEASE/spring-security-web-4.2.3.RELEASE.jar!/org/springframework/security/web/authentication/UsernamePasswordAuthenticationFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="44" column="56" selection-start-line="44" selection-start-column="56" selection-end-line="44" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/dd163893-f37e-42e9-b673-4b29d89780d8/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="12" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/df6dc95d-c543-459f-a62a-8a9c1fce7128/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="12" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-services/src/main/resources/mana.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-demo-mana/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-services/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="32" selection-start-line="32" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-demo-auth/spring-demo-auth-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="30" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-demo-auth/spring-demo-auth-web/src/main/java/com/example/auth/web/config/DataConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-demo-auth/spring-demo-auth-web/src/main/java/com/example/auth/web/config/AuthConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="20" column="50" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="826">
+          <caret line="59" column="49" selection-start-line="59" selection-start-column="49" selection-end-line="59" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="300" column="23" selection-start-line="300" selection-start-column="23" selection-end-line="300" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/apache-maven-3.6.1/resposity/org/springframework/security/spring-security-config/4.2.3.RELEASE/spring-security-config-4.2.3.RELEASE.jar!/org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="60" column="17" selection-start-line="60" selection-start-column="17" selection-end-line="60" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/java/com/example/mana/config/ServletConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="44" column="32" selection-start-line="44" selection-start-column="32" selection-end-line="44" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/java/com/example/mana/config/DataConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="14" column="69" selection-start-line="14" selection-start-column="69" selection-end-line="14" selection-end-column="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/java/com/example/mana/ManaInitializerStarter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="e#336#337#0" expanded="true" />
+            <element signature="e#371#372#0" expanded="true" />
+            <element signature="e#681#682#0" expanded="true" />
+            <element signature="e#721#722#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/java/com/example/mana/ManaAuthInitializerStarter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/java/com/example/mana/config/auth/AuthConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="19" column="61" lean-forward="true" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -995,10 +1259,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>spring-demo-auth:war exploded</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.3555133" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -1006,10 +1272,11 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
+          <last-edited>Spring</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.3555133" />
               </list>
             </option>
           </splitter-proportions>
@@ -1043,7 +1310,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.3555133" />
                 <option value="0.6" />
               </list>
             </option>
@@ -1064,10 +1331,11 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Maven: org.attoparser:attoparser:2.0.0.RELEASE</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.3555133" />
               </list>
             </option>
           </splitter-proportions>
