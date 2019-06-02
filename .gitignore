@@ -34,5 +34,6 @@ Icon?
 ehthumbs.db  
 Thumbs.db 
 # target
-*.xml
+target
+*.iml
 .idea
