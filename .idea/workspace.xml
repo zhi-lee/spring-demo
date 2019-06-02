@@ -2,144 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aef0b43d-f1b6-45ce-9690-1da99245f3c2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/java/com/example/mana/ManaAuthInitializerStarter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/java/com/example/mana/config/DataConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/all.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/layout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/2.4.5.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/css/layui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/css/layui.mobile.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/css/modules/code.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/css/modules/layer/default/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/css/modules/layer/default/layer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/font/iconfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/font/iconfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/font/iconfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/font/iconfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/10.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/11.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/12.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/13.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/14.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/15.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/16.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/17.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/18.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/19.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/20.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/21.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/22.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/23.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/24.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/25.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/26.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/27.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/28.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/29.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/30.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/31.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/32.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/33.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/34.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/35.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/36.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/37.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/38.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/39.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/40.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/41.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/42.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/43.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/44.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/45.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/46.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/47.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/48.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/49.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/50.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/51.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/52.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/53.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/54.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/55.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/56.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/57.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/58.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/59.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/60.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/61.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/62.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/63.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/64.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/65.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/66.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/67.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/68.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/69.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/7.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/70.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/71.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/8.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/images/face/9.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/lay/modules/carousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/lay/modules/code.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/lay/modules/colorpicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/lay/modules/element.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/lay/modules/flow.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/lay/modules/form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/lay/modules/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/lay/modules/laydate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/lay/modules/layedit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/lay/modules/layer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/lay/modules/laypage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/lay/modules/laytpl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/lay/modules/mobile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/lay/modules/rate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/lay/modules/slider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/lay/modules/table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/lay/modules/tree.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/lay/modules/upload.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/lay/modules/util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/layui.all.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/layui.init.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/layui/layui.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo-auth/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo-auth/target/spring-demo-auth.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/java/com/example/mana/ManaInitializerStarter.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/java/com/example/mana/ManaInitializerStarter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/WEB-INF/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/WEB-INF/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/WEB-INF/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/WEB-INF/layout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/2.1.21/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/2.1.21/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/jquery/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/jquery/jquery.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/jquery/version.txt" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/webapp/scripts/plugins/jquery/version.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo-mana/target/classes/com/example/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo-mana/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo-mana/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo-mana/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo-mana/target/spring-demo-mana.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo-webservices/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo-webservices/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo-webservices/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo-webservices/target/spring-demo-webservices.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat/conf/logging.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat/conf/tomcat-users.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat/conf/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat/logs/access_log.2019-05-09" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/spring-demo-auth/target/" />
@@ -256,8 +119,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/java/com/example/mana/config/auth/AuthConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="19" column="61" lean-forward="true" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
+            <state relative-caret-position="145">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -457,11 +320,11 @@
   <component name="MavenRunner">
     <option name="vmOptions" value="-DarchetypeCatalog=local" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="406" />
-    <option name="y" value="399" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="350" />
+    <option name="y" value="62" />
     <option name="width" value="1980" />
-    <option name="height" value="1298" />
+    <option name="height" value="1285" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -482,70 +345,6 @@
             <path>
               <item name="spring-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-demo-auth" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-demo-common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-demo-mana" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-demo-mana" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-demo-mana-web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-demo-mana" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-demo-mana-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-demo-mana" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-demo-mana-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-demo-mana" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-demo-mana-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-demo-mana" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-demo-mana-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mana" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-demo-mana" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-demo-mana-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -690,7 +489,7 @@
       <workItem from="1559439799392" duration="11948000" />
       <workItem from="1559478702634" duration="4944000" />
       <workItem from="1559484161397" duration="559000" />
-      <workItem from="1559485580223" duration="5530000" />
+      <workItem from="1559485580223" duration="6040000" />
     </task>
     <task id="LOCAL-00001" summary="调试及其更换环境">
       <created>1557934245535</created>
@@ -731,7 +530,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113970000" />
+    <option name="totallyTimeSpent" value="114480000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -743,8 +542,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="406" y="399" width="1980" height="1298" extended-state="0" />
-    <editor active="true" />
+    <frame x="862" y="90" width="1980" height="1285" extended-state="0" />
     <layout>
       <window_info x="1603" y="502" width="610" height="804" id="Project" order="0" sideWeight="0.478125" visible="true" weight="0.2168234" />
       <window_info id="Structure" order="1" sideWeight="0.521875" side_tool="true" weight="0.19203188" />
@@ -762,12 +560,12 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.30546874" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.308094" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="13" weight="0.32890624" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.32874355" />
       <window_info anchor="bottom" id="Messages" order="14" weight="0.29921874" />
       <window_info anchor="bottom" id="Dependency Viewer" order="15" weight="0.47890624" />
       <window_info anchor="bottom" id="Database Console" order="16" weight="0.3296875" />
@@ -1245,8 +1043,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-demo-mana/spring-demo-mana-web/src/main/java/com/example/mana/config/auth/AuthConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="19" column="61" lean-forward="true" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
+        <state relative-caret-position="145">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
