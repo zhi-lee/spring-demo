@@ -1,4 +1,13 @@
 package com.example.common.exception;
 
-public class ResultMessagesNotificationException {
+import com.example.common.message.ResultMessage;
+
+public abstract class ResultMessagesNotificationException extends RuntimeException{
+    public ResultMessagesNotificationException(ResultMessage resultMessage){
+        super();
+    }
+
+    public ResultMessagesNotificationException (ResultMessage resultMessage,Throwable throwable){
+        super(throwable);
+    }
 }

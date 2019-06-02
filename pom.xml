@@ -67,6 +67,7 @@
         <druid.verion>0.2.23</druid.verion>
         <shiro.version>1.2.5</shiro.version>
         <spring.version>4.3.20.RELEASE</spring.version>
+        <spring.security.version>4.2.3.RELEASE</spring.security.version>
         <swagger2.version>2.9.2</swagger2.version>
         <lombok.version>1.16.20</lombok.version>
         <joda.time.version>2.10.1</joda.time.version>
@@ -74,6 +75,7 @@
         <validator.version>4.3.1.Final</validator.version>
         <global.version>1.0-SNAPSHOT</global.version>
         <thymeleaf.layout.version>2.3.0</thymeleaf.layout.version>
+        <mybatisplus.version>2.3</mybatisplus.version>
     </properties>
     <dependencyManagement>
         <dependencies>
@@ -93,6 +95,17 @@
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-context</artifactId>
                 <version>${spring.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework.security</groupId>
+                <artifactId>spring-security-web</artifactId>
+                <version>${spring.security.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.security</groupId>
+                <artifactId>spring-security-config</artifactId>
+                <version>${spring.security.version}</version>
             </dependency>
 
             <!--servlet-->
@@ -132,17 +145,12 @@
                 <version>${druid.verion}</version>
             </dependency>
 
-            <!--shiro web-->
             <dependency>
-                <groupId>org.apache.shiro</groupId>
-                <artifactId>shiro-web</artifactId>
-                <version>${shiro.version}</version>
+                <groupId>com.baomidou</groupId>
+                <artifactId>mybatis-plus</artifactId>
+                <version>${mybatisplus.version}</version>
             </dependency>
-            <dependency>
-                <groupId>org.apache.shiro</groupId>
-                <artifactId>shiro-spring</artifactId>
-                <version>${shiro.version}</version>
-            </dependency>
+
             <!--配置swagger2-->
             <dependency>
                 <groupId>io.springfox</groupId>
@@ -241,6 +249,22 @@
                     <failOnMissingWebXml>false</failOnMissingWebXml>
                 </configuration>
             </plugin>
+
+            <plugin>
+                <artifactId>maven-assembly-plugin</artifactId>
+                <configuration>
+                    <!--这部分可有可无,加上的话则直接生成可运行jar包-->
+                    <!--<archive>-->
+                    <!--<manifest>-->
+                    <!--<mainClass>${exec.mainClass}</mainClass>-->
+                    <!--</manifest>-->
+                    <!--</archive>-->
+                    <descriptorRefs>
+                        <descriptorRef>jar-with-dependencies</descriptorRef>
+                    </descriptorRefs>
+                </configuration>
+            </plugin>
+
         </plugins>
         <pluginManagement>
             <plugins>
@@ -261,7 +285,34 @@
                     </configuration>
                 </plugin>
                 -->
+
+                <!--将jar包和项目分离-->
+                <plugin>
+                    <groupId>org.eclipse.m2e</groupId>
+                    <artifactId>lifecycle-mapping</artifactId>
+                    <version>1.0.0</version>
+                    <configuration>
+                        <lifecycleMappingMetadata>
+                            <pluginExecutions>
+                                <pluginExecution>
+                                    <pluginExecutionFilter>
+                                        <groupId>org.apache.maven.plugins</groupId>
+                                        <artifactId>maven-dependency-plugin</artifactId>
+                                        <versionRange>[2.0,)</versionRange>
+                                        <goals>
+                                            <goal>copy-dependencies</goal>
+                                        </goals>
+                                    </pluginExecutionFilter>
+                                    <action>
+                                        <ignore/>
+                                    </action>
+                                </pluginExecution>
+                            </pluginExecutions>
+                        </lifecycleMappingMetadata>
+                    </configuration>
+                </plugin>
             </plugins>
+
         </pluginManagement>
         <!--打包的时候，不同版本的 Eclipse  还有IDEA 会有打包打不进去Mapper.xml 文件，这个时候要加如下代码（群里同学提供的）。-->
         <resources>
