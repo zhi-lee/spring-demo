@@ -5,8 +5,12 @@ create  table user(
       REALNAME varchar(50) comment '真实姓名',
       PASSWORD varchar(200) comment '密码',
       CREATE_TIME timestamp comment '创建时间',
+      SALT varchar(50) comment '盐值' ,
+      AGE int comment '年龄',
+      SEX tinyint comment '性别',
+      PHONE varchar(20) comment '电话号码',
       LAST_LOGIN_TIME timestamp comment  '最近登陆时间',
-      ENABELE tinyint comment '是否可用 1、可用 0、不可用',
+      ENABLE tinyint comment '是否可用 1、可用 0、不可用',
       EXPIRE tinyint comment '是否过期 1、过期 0、未过期',
       LOCKED tinyint comment '是否锁定 1、锁定 0、未锁定',
       DELETEED tinyint comment '是否删除'
@@ -19,7 +23,7 @@ create table role(
       SUPROLE bigint comment '上级角色',
       ROLECODE varchar(50) comment '角色编码',
       DESCRIPTION varchar(255) comment '角色说明',
-      ENABELE tinyint comment '是否可用 1、可用 0、不可用',
+      ENABLE tinyint comment '是否可用 1、可用 0、不可用',
       CREATE_TIME timestamp comment '创建时间',
       DELETEED tinyint comment '是否删除',
       CREATOR bigint comment '创建者id'
@@ -30,7 +34,7 @@ create table authority(
       AUTHNAME varchar(50) comment '权限名称',
       AUTHCODE varchar(50) comment '权限编码',
       DESCRITPION varchar(255) comment '权限说明',
-      ENABELE tinyint comment '是否可用 1、可用 0、不可用',
+      ENABLE tinyint comment '是否可用 1、可用 0、不可用',
       CREATE_TIME timestamp comment '创建时间',
       DELETEED tinyint comment '是否删除',
       CREATOR bigint comment '创建者id'
@@ -40,7 +44,7 @@ create table user_role(
       ID bigint primary key comment '主键',
       USERID bigint comment '用户id',
       ROLEID bigint comment '角色id',
-      ENABELE tinyint comment '是否可用 1、可用 0、不可用',
+      ENABLE tinyint comment '是否可用 1、可用 0、不可用',
       CREATE_TIME timestamp comment '创建时间',
       DELETEED tinyint comment '是否删除',
       CREATOR bigint comment '创建者id'
@@ -52,7 +56,7 @@ create  table role_auth(
       ID bigint primary key comment '主键',
       AUTHID bigint comment '权限id',
       ROLEID bigint comment '角色id',
-      ENABELE tinyint comment '是否可用 1、可用 0、不可用',
+      ENABLE tinyint comment '是否可用 1、可用 0、不可用',
       CREATE_TIME timestamp comment '创建时间',
       DELETEED tinyint comment '是否删除',
       CREATOR bigint comment '创建者id'

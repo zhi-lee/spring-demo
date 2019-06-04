@@ -3,6 +3,7 @@ package com.example.mana.config.auth;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.annotation.Order;
+import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.builders.WebSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
@@ -33,6 +34,7 @@ public class AuthConfig extends WebSecurityConfigurerAdapter {
                 .anyRequest().authenticated()
                 .and()
                 .formLogin()
+                .loginPage("/login")
                 .permitAll();
     }
 
@@ -42,12 +44,12 @@ public class AuthConfig extends WebSecurityConfigurerAdapter {
      * @return
      * @throws Exception
      */
-    @Override
-    public UserDetailsService userDetailsServiceBean() throws Exception {
-        InMemoryUserDetailsManager manager = new InMemoryUserDetailsManager();
-        manager.createUser(User.withUsername("user").password("password").roles("USER").build());
-        return manager;
-    }
+//    @Override
+//    public UserDetailsService userDetailsServiceBean() throws Exception {
+//        InMemoryUserDetailsManager manager = new InMemoryUserDetailsManager();
+//        manager.createUser(User.withUsername("user").password("password").roles("USER").build());
+//        return manager;
+//    }
 
     @Autowired
     private DataSource dataSource;
@@ -58,16 +60,16 @@ public class AuthConfig extends WebSecurityConfigurerAdapter {
      * @param auth
      * @throws Exception
      */
-//    @Override
-//    protected void configure(AuthenticationManagerBuilder auth) throws Exception {
-//        auth.
-//                jdbcAuthentication()
-//                .dataSource(dataSource)
-//                .withDefaultSchema()
-//                .withUser("username").password("password").roles("USER").and()
-//                .withUser("username").password("password").roles("USER", "ADMIN");
-//
-//    }
+    @Override
+    protected void configure(AuthenticationManagerBuilder auth) throws Exception {
+        auth.
+                jdbcAuthentication()
+                .dataSource(dataSource)
+                .withDefaultSchema()
+                .withUser("username").password("password").roles("USER").and()
+                .withUser("username").password("password").roles("USER", "ADMIN");
+
+    }
 
 
     @Configuration

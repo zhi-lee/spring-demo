@@ -18,7 +18,7 @@ import org.thymeleaf.templatemode.TemplateMode;
 
 @Configuration
 @EnableWebMvc
-@ComponentScan(basePackages = "com.example.mana.client")
+@ComponentScan(basePackages = {"com.example.mana.client", "com.example.mana.service"})
 public class ServletConfig extends WebMvcConfigurerAdapter implements ApplicationContextAware {
     ApplicationContext applicationContext;
 

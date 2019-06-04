@@ -1,4 +1,4 @@
-package com.example.mana.todo.entity;
+package com.example.mana.service.todo.entity;
 
 import lombok.Data;
 

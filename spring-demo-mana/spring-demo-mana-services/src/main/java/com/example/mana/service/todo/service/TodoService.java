@@ -1,6 +1,6 @@
-package com.example.mana.todo.service;
+package com.example.mana.service.todo.service;
 
-import com.example.mana.todo.entity.Todo;
+import com.example.mana.service.todo.entity.Todo;
 
 import java.util.Collection;
 

@@ -1,8 +1,8 @@
-package com.example.mana.todo.service;
+package com.example.mana.service.todo.service;
 
 import com.example.common.exception.BusinessException;
-import com.example.mana.todo.entity.Todo;
-import com.example.mana.todo.repository.TodoRepository;
+import com.example.mana.service.todo.entity.Todo;
+import com.example.mana.service.todo.repository.TodoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
