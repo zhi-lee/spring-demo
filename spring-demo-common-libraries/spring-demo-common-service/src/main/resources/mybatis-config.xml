@@ -13,7 +13,7 @@
 
 
     <typeAliases>
-        <package name="com.example.mana.service.**.entity" />
+        <package name="com.example.common.entity" />
     </typeAliases>
 
 </configuration>

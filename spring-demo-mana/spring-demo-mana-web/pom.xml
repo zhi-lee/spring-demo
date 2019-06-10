@@ -23,6 +23,11 @@
             <artifactId>spring-demo-common-securityweb</artifactId>
             <version>${spring.demo.version}</version>
         </dependency>
+        <dependency>
+            <groupId>com.example</groupId>
+            <artifactId>spring-demo-mana-services</artifactId>
+            <version>${spring.demo.version}</version>
+        </dependency>
     </dependencies>
 
     <build>

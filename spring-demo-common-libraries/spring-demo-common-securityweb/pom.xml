@@ -24,7 +24,7 @@
         <dependency>
             <groupId>com.example</groupId>
             <artifactId>spring-demo-common-web</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <version>${spring.demo.version}</version>
         </dependency>
 
         <!--spring security-->
@@ -35,6 +35,13 @@
         <dependency>
             <groupId>org.springframework.security</groupId>
             <artifactId>spring-security-config</artifactId>
+        </dependency>
+
+        <!--        servlet-->
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <scope>provided</scope>
         </dependency>
     </dependencies>
 

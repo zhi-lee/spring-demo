@@ -77,6 +77,7 @@
         <spring.demo.version>1.0-SNAPSHOT</spring.demo.version>
         <thymeleaf.layout.version>2.3.0</thymeleaf.layout.version>
         <mybatisplus.version>3.1.1</mybatisplus.version>
+        <aspectj.version>1.9.1</aspectj.version>
     </properties>
     <dependencyManagement>
         <dependencies>
@@ -87,6 +88,17 @@
                 <version>${spring.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
+            </dependency>
+            <!-- aspectjweaver -->
+            <dependency>
+                <groupId>org.aspectj</groupId>
+                <artifactId>aspectjweaver</artifactId>
+                <version>${aspectj.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.aspectj</groupId>
+                <artifactId>aspectjrt</artifactId>
+                <version>${aspectj.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.springframework.security</groupId>
