@@ -50,9 +50,10 @@
         <module>spring-demo-mybatisplus</module>
         <module>spring-demo-auth</module>
         <module>spring-demo-mana</module>
-        <module>spring-demo-common</module>
         <module>spring-demo-cache</module>
         <module>spring-demo-webservices</module>
+        <module>spring-demo-search</module>
+        <module>spring-demo-common-libraries</module>
     </modules>
     <groupId>com.example</groupId>
     <artifactId>spring-demo</artifactId>
@@ -66,37 +67,27 @@
         <mysql.verision>5.1.25</mysql.verision>
         <druid.verion>0.2.23</druid.verion>
         <shiro.version>1.2.5</shiro.version>
-        <spring.version>4.3.20.RELEASE</spring.version>
-        <spring.security.version>4.2.3.RELEASE</spring.security.version>
+        <spring.version>4.3.23.RELEASE</spring.version>
+        <spring.security.version>4.2.12.RELEASE</spring.security.version>
         <swagger2.version>2.9.2</swagger2.version>
         <lombok.version>1.16.20</lombok.version>
         <joda.time.version>2.10.1</joda.time.version>
         <junit.jupiter.version>5.4.2</junit.jupiter.version>
         <validator.version>4.3.1.Final</validator.version>
-        <global.version>1.0-SNAPSHOT</global.version>
+        <spring.demo.version>1.0-SNAPSHOT</spring.demo.version>
         <thymeleaf.layout.version>2.3.0</thymeleaf.layout.version>
-        <mybatisplus.version>2.3</mybatisplus.version>
+        <mybatisplus.version>3.1.1</mybatisplus.version>
     </properties>
     <dependencyManagement>
         <dependencies>
             <!--springwebmvc-->
             <dependency>
                 <groupId>org.springframework</groupId>
-                <artifactId>spring-webmvc</artifactId>
+                <artifactId>spring-framework-bom</artifactId>
                 <version>${spring.version}</version>
-                <exclusions>
-                    <exclusion>
-                        <groupId>commons-logging</groupId>
-                        <artifactId>commons-logging</artifactId>
-                    </exclusion>
-                </exclusions>
+                <type>pom</type>
+                <scope>import</scope>
             </dependency>
-            <dependency>
-                <groupId>org.springframework</groupId>
-                <artifactId>spring-context</artifactId>
-                <version>${spring.version}</version>
-            </dependency>
-
             <dependency>
                 <groupId>org.springframework.security</groupId>
                 <artifactId>spring-security-web</artifactId>
