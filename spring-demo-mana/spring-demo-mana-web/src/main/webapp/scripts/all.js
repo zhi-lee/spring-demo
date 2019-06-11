@@ -1,19 +1,20 @@
-define('all', ['jquery','layui'], function ($) {
+define('all', ['jquery','jquery.validate', 'layui'], function ($,validate) {
     $.namespace('mana.client');
     mana.client = function () {
-        var type = 'post', dataType = 'json', page, pageSize, loading;
+        var type = 'post', dataType = 'json', loading;
         return {
-            handle: function (setting) {
+            ajax: function (setting) {
+
                 $.ajax({
                     url: setting.url,
-                    type: type,
+                    type: setting.type || type,
                     data: $.extend({}, setting.data),
+                    dataType: setting.dataType || dataType,
                     async: setting.async || false,
                     beforeSend: function () {
                         loading = layer.load(2, {time: 2000});
                         setting.beforeSend ? setting.beforeSend() : function () {
                             console.log('beforeSend...');
-                            layer.alert('msg')
                         }();
                     },
                     error: function (jqXHR, textStatus, errorThrown) {
@@ -48,11 +49,10 @@ define('all', ['jquery','layui'], function ($) {
         }
     }();
 
-    $.namespace('mana.')
     return {
         init: function () {
-            return mana.client.handle({
-                url: '/req',async:true, data: {name: 'lizhi'}
+            return mana.client.ajax({
+                url: '/req', async: true, data: {name: 'lizhi'}
                 , success: function () {
                     console.log('lizhi sccuess');
                 }, beforeSend: function () {

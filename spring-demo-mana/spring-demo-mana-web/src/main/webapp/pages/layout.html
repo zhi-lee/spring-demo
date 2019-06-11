@@ -6,6 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title layout:title-pattern="$LAYOUT_TITLE  -  $CONTENT_TITLE">spring demo</title>
+    <link href="/images/favicon.png" rel="shortcut icon" type="image/x-icon"/>
     <style type="text/css">
         *{-webkit-box-sizing: content-box; -moz-box-sizing: content-box; box-sizing: content-box;}
         body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td { margin:0; padding:0;}
@@ -31,10 +32,10 @@
             //your codes
         }
     </script>
-    <script th:src="@{scripts/2.1.21/require.min.js}"></script>
-    <script th:src="@{scripts/2.1.21/app.js}"></script>
-    <script th:src="@{scripts/plugins/layui/layui.all.js}"></script>
-    <script th:src="@{scripts/plugins/jquery/jquery.min.js}"></script>
+    <script th:src="@{/scripts/2.1.21/require.min.js}"></script>
+    <script th:src="@{/scripts/2.1.21/app.js}"></script>
+    <script th:src="@{/scripts/plugins/layui/layui.all.js}"></script>
+    <script th:src="@{/scripts/plugins/jquery/jquery.min.js}"></script>
 </head>
 <body>
 <header layout:fragment="header">

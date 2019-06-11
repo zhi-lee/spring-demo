@@ -12,12 +12,12 @@ public class User implements Serializable {
     protected String username;
     protected String realname;
     protected String password;
-    protected int create_time;
+    protected int createTime;
     protected String salt;
     protected int age;
     protected int sex;
     protected String phone;
-    protected int last_login_time;
+    protected int lastLoginTime;
     protected boolean enable;
     protected boolean expire;
     protected boolean locked;
