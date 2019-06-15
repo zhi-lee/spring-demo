@@ -54,7 +54,7 @@ public class AuthConfig {
         @Override
         public UserDetailsService userDetailsServiceBean() throws Exception {
             InMemoryUserDetailsManager manager = new InMemoryUserDetailsManager();
-            manager.createUser(User.withUsername("mappers").password("password").roles("USER").build());
+            manager.createUser(User.withUsername("mappers.security").password("password").roles("USER").build());
             return manager;
         }
 

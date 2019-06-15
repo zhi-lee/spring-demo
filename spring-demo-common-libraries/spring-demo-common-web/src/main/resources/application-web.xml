@@ -19,7 +19,7 @@
 ">
 
     <!-- 扫描controller（controller层注入） -->
-    <context:component-scan base-package="com.example.common.web.client"/>
+    <context:component-scan base-package="com.example.*.client"/>
 
     <!-- 启动注解支持 -->
     <!--    <mvc:annotation-driven/>-->

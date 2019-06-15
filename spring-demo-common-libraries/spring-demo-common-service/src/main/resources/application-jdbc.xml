@@ -18,7 +18,7 @@
     <context:property-placeholder location="classpath:jdbc.properties" />
 
     <!-- 自动将Service层注入-->
-    <context:component-scan base-package="com.example.common.service,com.example.common.repository" />
+    <context:component-scan base-package="com.example.*.service,com.example.*.repository" />
 
     <!-- dbcp数据源 -->
     <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource" init-method="init"
@@ -51,12 +51,12 @@
     <bean id="sqlSessionFactory" class="com.baomidou.mybatisplus.extension.spring.MybatisSqlSessionFactoryBean">
         <property name="dataSource" ref="dataSource"/>
         <property name="configLocation" value="classpath:mybatis-config.xml"/>
-        <property name="mapperLocations" value="classpath*:mappers/**/*.ext.xml"/>
+        <property name="mapperLocations" value="classpath*:mappers.security/**/*.ext.xml"/>
     </bean>
 
     <!-- spring与mybatis整合配置，扫描所有dao 和所有mapper文件 -->
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-        <property name="basePackage" value="com.example.common.mappers"/>
+        <property name="basePackage" value="com.example.*.mappers"/>
         <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
     </bean>
 

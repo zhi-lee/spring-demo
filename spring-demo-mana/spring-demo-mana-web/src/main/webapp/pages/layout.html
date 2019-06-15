@@ -26,20 +26,26 @@
         html {overflow-y: scroll;}
         p{margin: 0;}
     </style>
-    <script type="text/javascript">
-        var performance = window.performance || window.msPerformance || window.webkitPerformance;
-        if (performance) {
-            //your codes
-        }
-    </script>
     <script th:src="@{/scripts/2.1.21/require.min.js}"></script>
     <script th:src="@{/scripts/2.1.21/app.js}"></script>
     <script th:src="@{/scripts/plugins/layui/layui.all.js}"></script>
     <script th:src="@{/scripts/plugins/jquery/jquery.min.js}"></script>
+    <script th:inline="javascript">
+        var performance = window.performance || window.msPerformance || window.webkitPerformance;
+        if (performance) {
+            //your codes
+        }
+        requirejs(['layout'], function (layout) {
+            layout.call();
+        })
+    </script>
+
 </head>
 <body>
 <header layout:fragment="header">
+    this is header
 </header>
+<section layout:fragment="menu"><p>Page is nmg</p></section>
 <section layout:fragment="content"><p>Page content goes here</p></section>
 <footer><p>My footer</p>
     <p layout:fragment="footer">Custom footer here</p></footer>

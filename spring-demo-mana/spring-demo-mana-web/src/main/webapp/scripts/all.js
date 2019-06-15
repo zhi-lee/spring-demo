@@ -1,64 +1,50 @@
-define('all', ['jquery','jquery.validate', 'layui'], function ($,validate) {
+define('all', ['jquery', 'jquery.validate', 'layui'], function ($, validate) {
+    "use strict";
     $.namespace('mana.client');
-    mana.client = function () {
-        var type = 'post', dataType = 'json', loading;
+    mana.client = (() => {
         return {
-            ajax: function (setting) {
-
-                $.ajax({
-                    url: setting.url,
-                    type: setting.type || type,
-                    data: $.extend({}, setting.data),
-                    dataType: setting.dataType || dataType,
-                    async: setting.async || false,
-                    beforeSend: function () {
-                        loading = layer.load(2, {time: 2000});
-                        setting.beforeSend ? setting.beforeSend() : function () {
-                            console.log('beforeSend...');
-                        }();
+            ajax: (setting) => {
+                var loading, v5 = {
+                    type: 'post',
+                    dataType: 'json',
+                    data: {},
+                    async: true,
+                    headers: {sign:localStorage.getItem('sign')},
+                    beforeAjax: () => false,
+                    beforeSend: () => false,
+                    success: (data, textStatus, jqXHR) => console.log(data),
+                    error: (jqXHR, textStatus, errorThrown) => console.log(textStatus)
+                };
+                $.extend(v5, setting);
+                if (v5.beforeAjax())
+                    return false;
+                $.ajax($.extend({}, v5, {
+                    beforeSend: () => {
+                        loading = layer.load(2, {time: 5000}, v5.beforeSend())
                     },
-                    error: function (jqXHR, textStatus, errorThrown) {
-                        layer.close(loading);
-                        layer.msg('系统异常，请联系管理员');
-                    }, success: function (data, textStatus, jqXHR) {
-                        layer.close(loading);
-                        console.log(data);
-                        setting.success ? setting.success() : function () {
-                            console.log('success...')
-                        }();
+                    success: (data, textStatus, jqXHR) => {
+                        layer.close(loading), console.log(data);
+                        v5.success(data, textStatus, jqXHR);
+                    },
+                    error: (jqXHR, textStatus, errorThrown) => {
+                        layer.close(loading), layer.msg('系统异常，请联系管理员');
                     }
-                })
+
+                }));
             },
+            validate:()=>{}
         }
-    }();
+    })();
 
-    $.namespace('mana.validation');
-    mana.validation = function () {
-        return {
-            validator: function () {
-
+    return () => {
+        return mana.client.ajax({
+            url: '/req', async: true, data: {name: 'lizhi'}
+            , success: function () {
+                console.log('lizhi sccuess');
+            }, beforeSend: function () {
+                console.log('xxxx');
             }
-        }
-    }();
-
-    $.namespace('mana.navbar');
-    mana.navbar = function () {
-        return {
-            init: function () {
-            }
-        }
-    }();
-
-    return {
-        init: function () {
-            return mana.client.ajax({
-                url: '/req', async: true, data: {name: 'lizhi'}
-                , success: function () {
-                    console.log('lizhi sccuess');
-                }, beforeSend: function () {
-                    console.log('xxxx');
-                }
-            })
-        }
+        })
     }
+
 });
