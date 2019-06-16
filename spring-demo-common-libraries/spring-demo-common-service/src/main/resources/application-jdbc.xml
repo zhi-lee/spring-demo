@@ -18,7 +18,10 @@
     <context:property-placeholder location="classpath:jdbc.properties" />
 
     <!-- 自动将Service层注入-->
-    <context:component-scan base-package="com.example.*.service,com.example.*.repository" />
+    <context:component-scan base-package="com.example" >
+        <context:include-filter type="annotation" expression="org.springframework.stereotype.Repository"/>
+        <context:include-filter type="annotation" expression="org.springframework.stereotype.Service"/>
+    </context:component-scan>
 
     <!-- dbcp数据源 -->
     <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource" init-method="init"

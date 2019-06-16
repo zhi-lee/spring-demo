@@ -19,7 +19,10 @@
 ">
 
     <!-- 扫描controller（controller层注入） -->
-    <context:component-scan base-package="com.example.*.client"/>
+    <context:component-scan base-package="com.example">
+        <context:include-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
+        <context:include-filter type="annotation" expression="org.springframework.web.bind.annotation.RestController"/>
+    </context:component-scan>
 
     <!-- 启动注解支持 -->
     <!--    <mvc:annotation-driven/>-->
@@ -28,7 +31,7 @@
     <mvc:resources location="/images/" mapping="/images/**"/>
     <mvc:resources location="/scripts/" mapping="/scripts/**"/>
     <mvc:resources location="/styles/" mapping="/styles/**"/>
-
+    <mvc:resources location="/fonts/" mapping="/styles/**"/>
     <!-- 视图解析器 -->
     <!--    <bean id="securityDialect" class="org.thymeleaf.extras.springsecurity4.dialect.SpringSecurityDialect"/>-->
     <!--    <bean id="layoutDialect" class="nz.net.ultraq.thymeleaf.LayoutDialect"></bean>-->

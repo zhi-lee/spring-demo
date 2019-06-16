@@ -2,13 +2,6 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org"
       xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
       layout:decorate="~{layout}">
-<head>
-    <script>
-        requirejs(['all'], function (all) {
-            all.call();
-        })
-    </script>
-</head>
 <body>
 <section layout:fragment="content">
     <p>This is a paragraph from content page 1</p>
@@ -17,4 +10,9 @@
     <p layout:fragment="custom-footer">This is some footer content from content page 1</p>
 </footer>
 </body>
+<script layout:fragment="onloadJS">
+    requirejs(['services/index'], function (index) {
+        index.call();
+    })
+</script>
 </html>
