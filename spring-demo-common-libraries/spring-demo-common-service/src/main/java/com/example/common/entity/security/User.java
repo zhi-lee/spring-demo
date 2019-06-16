@@ -10,19 +10,20 @@ import java.io.Serializable;
 @Data
 @TableName("user")
 public class User implements Serializable {
-    protected int id;
+    protected Integer id;
     protected String name;
     protected String realname;
     protected String password;
     protected DateTime createTime;
     protected String salt;
-    protected int age;
-    protected int sex;
+    protected Integer age;
+    protected Integer sex;
     protected String phone;
     protected DateTime lastLoginTime;
     protected boolean enable;
     protected boolean expire;
     protected boolean locked;
+    protected DateTime updateTime;
     @TableLogic
-    protected int deleted;
+    protected Integer deleted;
 }

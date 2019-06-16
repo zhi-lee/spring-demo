@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.example.common.mappers.security.RoleMapper">
+<mapper namespace="Authority">
 
     <!--    <resultMap id="userVoResultMap" type="com.wangzhixuan.model.vo.UserVo">-->
     <!--        <id column="id" property="id" jdbcType="BIGINT"/>-->
@@ -27,6 +27,14 @@
     <!--    <sql id="Base_Column_List">-->
     <!--        id, login_name AS loginName, name, password, salt, sex, age, phone, user_type AS userType, status, organization_id AS organizationId, create_time AS createTime-->
     <!--    </sql>-->
+    <select id="selectByUsername" resultType="com.example.common.entity.security.Authority">
+        SELECT a.* FROM authority a
+        INNER JOIN role_auth ra ON a.ID=ra.AUTHID
+        INNER JOIN role r ON ra.ROLEID=r.ID
+        INNER JOIN user_role ur ON r.ID=ur.ROLEID
+        INNER JOIN user u
+        ON u.ID=ur.USERID AND u.NAME=#{uName} AND a.DELETED=0 AND u.DELETED=0 AND  ra.DELETED=0 AND  ur.DELETED=0
+    </select>
 
 
 </mapper>

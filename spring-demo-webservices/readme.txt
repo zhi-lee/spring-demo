@@ -38,3 +38,10 @@
 
 
 思考 API 的幂等性
+
+
+# GET：读取（Read acquire(acq) obtain
+# POST：新建（Create）increase(incre) raise
+# PUT：更新（Update）transform(tran) change
+# PATCH：更新（Update），通常是部分更新
+# DELETE：删除（Delete）delete(del) delete

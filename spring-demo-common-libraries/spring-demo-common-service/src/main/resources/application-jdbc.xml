@@ -84,7 +84,7 @@
     <aop:aspectj-autoproxy/>
 
     <aop:config>
-        <aop:pointcut id="pc" expression="execution(public * com.example.common.service.*.*(..))"/>
+        <aop:pointcut id="pc" expression="execution(public * com.example.*.service.*.*(..))"/>
         <!--把事务控制在Service层-->
         <aop:advisor advice-ref="txAdvice" pointcut-ref="pc"/>
     </aop:config>
