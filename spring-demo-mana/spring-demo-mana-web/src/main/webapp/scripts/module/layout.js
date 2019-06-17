@@ -1,4 +1,4 @@
-define('components/layout', ['jquery'], function ($) {
+define('module/layout', ['jquery'], function ($) {
     $.fn.extend({
         sidebarMenu: (settings) => {
 

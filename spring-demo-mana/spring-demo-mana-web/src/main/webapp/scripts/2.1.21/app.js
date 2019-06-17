@@ -5,6 +5,6 @@ requirejs.config({
         'jquery.validate': 'plugins/jquery/jquery.validate.min',
         'layui': 'plugins/layui/layui.init',
         'components': 'components',
-        'services':'services'
+        'module':'module'
     }, shim: {}
 });

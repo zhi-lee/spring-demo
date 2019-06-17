@@ -12,6 +12,6 @@ import javax.servlet.http.HttpServletResponse;
 public class SecurityController {
     @RequestMapping(value = "/ulogin",method = RequestMethod.GET)
     ModelAndView loginPage(HttpServletRequest req, HttpServletResponse resp) {
-        return new ModelAndView("ulogin");
+        return new ModelAndView("login");
     }
 }

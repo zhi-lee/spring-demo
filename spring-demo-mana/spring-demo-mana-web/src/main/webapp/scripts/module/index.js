@@ -1,4 +1,4 @@
-define('services/index', ['jquery', 'components/ajax'], function ($, ajax) {
+define('module/index', ['jquery', 'components/ajax'], function ($, ajax) {
     'use strict'
     $.namespace('mana.index.init');
     mana.index.init = (() => {

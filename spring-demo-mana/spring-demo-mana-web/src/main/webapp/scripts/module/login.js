@@ -1,4 +1,4 @@
-define('services/security', ['jquery', 'components/ajax'], function ($, ajax) {
+define('module/login', ['jquery', 'components/ajax'], function ($, ajax) {
     'use strict'
     $.namespace('mana.security.login');
     mana.security.login = (() => {
