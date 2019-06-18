@@ -5,8 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title layout:title-pattern="$LAYOUT_TITLE  -  $CONTENT_TITLE">spring demo</title>
-    <link href="/images/favicon.png" rel="shortcut icon" type="image/x-icon"/>
+    <title>spring demo login page</title>
     <style type="text/css">
         *{-webkit-box-sizing: content-box; -moz-box-sizing: content-box; box-sizing: content-box;}
         body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td { margin:0; padding:0;}
@@ -21,7 +20,7 @@
         i{font-style: normal;}
         input, textarea, select, button { font:14px "Arial","Microsoft YaHei","黑体","宋体",sans-serif;}
         input,button{border: none; outline: none;}
-        input[type=checkbox], input[type=radio]{margin: 0;}
+        /*input[type=checkbox], input[type=radio]{margin: 0;}*/
         input:-webkit-autofill{box-shadow: 0 0 0px 1000px white inset !important; }
         table { border-collapse:collapse; }
         html {overflow-y: scroll;}
@@ -33,28 +32,35 @@
         .wrap-login{display: block;font-size: 39px;color:#333;line-height: 1.2;text-align: center;padding-bottom: 49px;}
         .wrap-block{width: 100%;position: relative;}
         /*.wrap-block span:nth-child(2){ position: absolute;top: 50%;left:20px;}*/
-        .wrap-block i{ position: absolute;top: 50%;left:20px;font-size: 14px; color: #FFFFFF;}
+        .wrap-block i{ position: absolute;top: 45%;left:10px;font-size: 20px;}
         .wrap-spacing{margin-bottom: 16px;}
         .wrap-label{font-size:14px;color:#333;line-height: 1.5;display: block;padding-left: 7px;}
-        input{height: 55px;width: 100%;padding:0 7px 0 43px;box-sizing: border-box;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;border-bottom-style:solid;border-bottom-color:rgb(185,185,185);background-color: rgb(255,255,255) !important; }
+        .wrap-input{height: 55px;width: 100%;padding:0 7px 0 43px;box-sizing: border-box;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;border-bottom-style:solid;
+            border-bottom-color:rgb(185,185,185);background-color: rgb(255,255,255) !important; }
+        input::selection .layui-icon{color:#fc00ff}
+        /*input::-ms-input-placeholder::-webkit-input-placeholder{text-align: center;}*/
         .wrap-forget{padding-bottom: 30px;padding-top: 8px;text-align: right;}
         .wrap-forget a{font-size: 14px;line-height: 1.7;color: #666666;margin: 0;}
         .wrap-login{display: flex;flex-wrap: wrap;justify-content: center;}
-        .wrap-btn{font-size: 16px;color: #fff;line-height: 1.2;text-transform: uppercase;display: -webkit-box;display: -webkit-flex;display: -moz-box;display: -ms-flexbox;display: flex;justify-content: center;align-items: center;
-            background: -webkit-linear-gradient(right, #00dbde, #fc00ff, #00dbde, #fc00ff);background: -o-linear-gradient(right, #00dbde, #fc00ff, #00dbde, #fc00ff);background: -moz-linear-gradient(right, #00dbde, #fc00ff, #00dbde, #fc00ff);
-            background: linear-gradient(right, #00dbde, #fc00ff,  #00dbde,#fc00ff);border-radius: 25px;padding: 0 20px;width: 100%;height: 50px;border-bottom-style:none;background-position: 1% 50%;  transition: background 1s ease;
-            -webkit-transition: background 1s ease;outline: none;cursor: pointer;background-size: 300% 300%;}
+        .wrap-btn{font-size: 16px;color: #fff;line-height: 1.2;text-transform: uppercase;display: -webkit-box;display: -webkit-flex;display: -moz-box;display: -ms-flexbox;display: flex;
+            justify-content: center;align-items: center;background: -webkit-linear-gradient(right, #00dbde, #fc00ff, #00dbde, #fc00ff);
+            background: -o-linear-gradient(right, #00dbde, #fc00ff, #00dbde, #fc00ff);background: -moz-linear-gradient(right, #00dbde, #fc00ff, #00dbde, #fc00ff);
+            background: linear-gradient(right, #00dbde, #fc00ff,  #00dbde,#fc00ff);border-radius: 25px;padding: 0 20px;width: 100%;height: 50px;border-bottom-style:none;background-position: 1% 50%;
+            transition: background 1s ease;-webkit-transition: background 1s ease;outline: none;cursor: pointer;background-size: 300% 300%;}
         .wrap-btn:hover{ background-position: 99% 50%}
         .wrap-third-login{text-align: center;padding-bottom: 20px;}
         .wrap-third-login span{font-size: 14px;line-height: 1.5;color: #666666;}
         .wrap-third-way-login{display: flex;justify-content: center;-ms-align-items: center;align-items: center;}
-        .wrap-login-way{font-size: 25px;color: #fff;display: -webkit-box;display: -webkit-flex;display: -moz-box;display: -ms-flexbox;display: flex;justify-content: center;align-items: center;width: 50px;height: 50px;border-radius: 50%;margin: 5px;}
+        .wrap-login-way{font-size: 25px;color: #fff;display: -webkit-box;display: -webkit-flex;display: -moz-box;display: -ms-flexbox;display: flex;justify-content: center;align-items: center;
+            width: 50px;height: 50px;border-radius: 50%;margin: 5px;}
         .one{background-color: #3b5998;}
         .second{background-color: #1da1f2}
         .third{background-color: #ea4335}
         .wrap-register{padding-top: 25px;display: flex;flex-direction: column;align-items: center;}
         .wrap-register-btn{font-size: 14px;line-height: 1.5;color: #333333;text-transform: uppercase;}
     </style>
+    <link rel="shortcut icon" type="image/x-icon" th:href="@{'images/favicon.png'}"/>
+    <link rel="stylesheet" th:href="@{'scripts/plugins/layui/css/layui.css'}">
     <script th:src="@{/scripts/2.1.21/require.min.js}"></script>
     <script th:src="@{/scripts/2.1.21/app.js}"></script>
     <script th:src="@{/scripts/plugins/layui/layui.all.js}"></script>
@@ -69,19 +75,19 @@
 <body>
 <div class="layui-fluid">
     <div class="layui-row">
-        <div class="layui-col-xs12 layui-col-sm12 layui-col-md4 wrap-row">
+        <div class="layui-col-xs12 layui-col-sm12 layui-col-md-offset4 layui-col-md4 wrap-row">
             <div class="wrap-container">
                 <form action="" class="wrap-form" autocomplete="off">
                     <span class="wrap-login">登陆</span>
                     <div class="wrap-block wrap-spacing" data-placeholder="请输入用户名">
                         <span class="wrap-label">用户名</span>
-                        <i class="layui-icon layui-icon-username">&#xe66f;</i>
+                        <i class="layui-icon">&#xe66f;</i>
 <!--                        <span class="layui-icon layui-icon-username">&#xe66f;</span>-->
-                        <input type="text" class="wrap-input layui-input" name="name" id="name" placeholder="请输入用户名" autocomplete="off" />
+                        <input type="text" class="wrap-input" name="name" id="name" placeholder="请输入用户名" autocomplete="off" />
                     </div>
                     <div class="wrap-block" data-placeholder="请输入密码">
                         <span class="wrap-label">密码</span>
-                        <i class="layui-icon layui-icon-password">&#xe673;</i>
+                        <i class="layui-icon">&#xe673;</i>
 <!--                        <span class="layui-icon layui-icon-password">&#xe673;</span>-->
                         <input type="password" class="wrap-input" name="password" id="password" placeholder="请输入密码" autocomplete="off"/>
                     </div>
