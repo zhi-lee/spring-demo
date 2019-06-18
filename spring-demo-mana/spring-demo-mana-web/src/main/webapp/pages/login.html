@@ -43,16 +43,17 @@
         .wrap-forget a{font-size: 14px;line-height: 1.7;color: #666666;margin: 0;}
         .wrap-login{display: flex;flex-wrap: wrap;justify-content: center;}
         .wrap-btn{font-size: 16px;color: #fff;line-height: 1.2;text-transform: uppercase;display: -webkit-box;display: -webkit-flex;display: -moz-box;display: -ms-flexbox;display: flex;
-            justify-content: center;align-items: center;background: -webkit-linear-gradient(right, #00dbde, #fc00ff, #00dbde, #fc00ff);
-            background: -o-linear-gradient(right, #00dbde, #fc00ff, #00dbde, #fc00ff);background: -moz-linear-gradient(right, #00dbde, #fc00ff, #00dbde, #fc00ff);
-            background: linear-gradient(right, #00dbde, #fc00ff,  #00dbde,#fc00ff);border-radius: 25px;padding: 0 20px;width: 100%;height: 50px;border-bottom-style:none;background-position: 1% 50%;
+            justify-content: center;align-items: center;background: -webkit-linear-gradient(right, #fc00ff, #00dbde, #fc00ff,#00dbde);
+            background: -o-linear-gradient(right, #fc00ff, #00dbde, #fc00ff,#00dbde);background: -moz-linear-gradient(right, #fc00ff, #00dbde, #fc00ff,#00dbde);
+            background: linear-gradient(right, #fc00ff, #00dbde, #fc00ff,#00dbde);border-radius: 25px;padding: 0 20px;width: 100%;height: 50px;border-bottom-style:none;background-position: 1% 50%;
             transition: background 1s ease;-webkit-transition: background 1s ease;outline: none;cursor: pointer;background-size: 300% 300%;}
         .wrap-btn:hover{ background-position: 99% 50%}
         .wrap-third-login{text-align: center;padding-bottom: 20px;}
         .wrap-third-login span{font-size: 14px;line-height: 1.5;color: #666666;}
         .wrap-third-way-login{display: flex;justify-content: center;-ms-align-items: center;align-items: center;}
-        .wrap-login-way{font-size: 25px;color: #fff;display: -webkit-box;display: -webkit-flex;display: -moz-box;display: -ms-flexbox;display: flex;justify-content: center;align-items: center;
+        .wrap-login-way{font-size: 52px;color: #fff;display: -webkit-box;display: -webkit-flex;display: -moz-box;display: -ms-flexbox;display: flex;justify-content: center;align-items: center;
             width: 50px;height: 50px;border-radius: 50%;margin: 5px;}
+        .wrap-login-way > .layui-icon{font-size: 52px;}
         .one{background-color: #3b5998;}
         .second{background-color: #1da1f2}
         .third{background-color: #ea4335}
@@ -101,9 +102,9 @@
                         <span>第三方登录</span>
                     </div>
                     <div class="wrap-third-way-login">
-                        <a href="#" class="wrap-login-way one"></a>
-                        <a href="#" class="wrap-login-way second"></a>
-                        <a href="#" class="wrap-login-way third"></a>
+                        <a href="#" class="wrap-login-way one"> <i class="layui-icon">&#xe677;</i></a>
+                        <a href="#" class="wrap-login-way second"> <i class="layui-icon">&#xe676;</i></a>
+                        <a href="#" class="wrap-login-way third"> <i class="layui-icon">&#xe675;</i></a>
                     </div>
                     <div class="wrap-register"><a href="#" class="wrap-register-btn">立即注册</a></div>
                 </form>
