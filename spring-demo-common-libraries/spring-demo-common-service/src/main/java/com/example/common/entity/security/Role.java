@@ -10,8 +10,8 @@ import java.io.Serializable;
 @TableName("role")
 public class Role extends Entity implements Serializable {
     protected Long id;
-    private String name;
-    private Integer supRole;
-    private String roleCode;
-    private String description;
+    protected String name;
+    protected Integer supRole;
+    protected String roleCode;
+    protected String description;
 }

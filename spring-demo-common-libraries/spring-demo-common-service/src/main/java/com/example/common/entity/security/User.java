@@ -15,11 +15,10 @@ public class User extends Entity implements Serializable {
     protected String name;
     protected String realname;
     protected String password;
-    protected DateTime createTime;
     protected String salt;
     protected Integer age;
     protected Integer sex;
     protected String phone;
-    protected boolean expire;
-    protected boolean locked;
+    protected Boolean expire;
+    protected Boolean locked;
 }

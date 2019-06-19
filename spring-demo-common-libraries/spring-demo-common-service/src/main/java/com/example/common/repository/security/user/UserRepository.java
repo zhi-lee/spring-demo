@@ -5,4 +5,6 @@ import com.example.common.entity.security.User;
 
 public interface UserRepository {
     User selectUser(User user);
+
+    void insertUser(User user);
 }

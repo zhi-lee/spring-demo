@@ -29,6 +29,7 @@
         <!--      允许访问  <security:intercept-url pattern="mana.sql" access="permitAll()"/>-->
         <security:intercept-url pattern="/**" access="isFullyAuthenticated()"/>
         <security:form-login login-page="/ulogin"/>
+        <security:csrf disabled="true"/>
     </security:http>
 
     <security:authentication-manager>

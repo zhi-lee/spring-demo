@@ -17,7 +17,13 @@ public class UserServiceImpl implements UserService {
             return null;
         User user = new User();
         user.setName(uName);
-        user.setEnable(true);
         return userRepo.selectUser(user);
+    }
+
+    @Override
+    public void raiseUser(User u) {
+        if (null==u)
+            return;
+        userRepo.insertUser(u);
     }
 }

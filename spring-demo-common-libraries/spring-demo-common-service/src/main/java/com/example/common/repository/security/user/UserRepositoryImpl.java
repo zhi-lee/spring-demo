@@ -12,4 +12,9 @@ public class UserRepositoryImpl extends ServiceImpl<UserMapper, User> implements
     public User selectUser(User user) {
         return baseMapper.selectOne(new  QueryWrapper<User>(user));
     }
+
+    @Override
+    public void insertUser(User user) {
+        baseMapper.insert(user);
+    }
 }
