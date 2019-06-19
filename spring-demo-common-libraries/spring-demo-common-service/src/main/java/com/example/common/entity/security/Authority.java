@@ -2,6 +2,7 @@ package com.example.common.entity.security;
 
 import com.baomidou.mybatisplus.annotation.TableLogic;
 import com.baomidou.mybatisplus.annotation.TableName;
+import com.example.common.base.entity.Entity;
 import lombok.Data;
 import org.joda.time.DateTime;
 
@@ -9,16 +10,12 @@ import java.io.Serializable;
 
 @Data
 @TableName("authority")
-public class Authority implements Serializable {
-    protected Integer id;
+public class Authority extends Entity implements Serializable {
+    protected Long id;
     protected String name;
     protected String code;
     protected Integer type;
     protected String descritpion;
-    protected boolean enable;
-    protected DateTime createTime;
-    protected DateTime updateTime;
-    @TableLogic
-    protected Integer deleted;
-    protected Integer creator;
+    protected String icon;
+
 }
