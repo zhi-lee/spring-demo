@@ -14,23 +14,33 @@
            http://www.springframework.org/schema/aop/spring-aop-4.2.xsd
 ">
 
-<!--    <security:http>-->
-<!--        <security:intercept-url pattern="/ulogin" access="permitAll()"/>-->
-<!--        &lt;!&ndash;      允许访问  <security:intercept-url pattern="mana.sql" access="permitAll()"/>&ndash;&gt;-->
-<!--        <security:intercept-url pattern="/**" access="isFullyAuthenticated()"/>-->
-<!--        <security:form-login login-page="/ulogin"/>-->
-<!--    </security:http>-->
+    <security:http>
+        <!--        静态自选文件-->
+        <!--        <mvc:resources location="/images/" mapping="/images/**"/>-->
+        <security:intercept-url pattern="/images/**" access="permitAll()"/>
+        <!--        <mvc:resources location="/scripts/" mapping="/scripts/**"/>-->
+        <security:intercept-url pattern="/scripts/**" access="permitAll()"/>
+        <!--        <mvc:resources location="/styles/" mapping="/styles/**"/>-->
+        <security:intercept-url pattern="/styles/**" access="permitAll()"/>
+        <!--        <mvc:resources location="/fonts/" mapping="/styles/**"/>-->
+        <security:intercept-url pattern="/fonts/**" access="permitAll()"/>
 
-<!--    <security:authentication-manager>-->
-<!--        <security:authentication-provider>-->
-<!--            <security:user-service>-->
-<!--                <security:user name="admin" authorities="ROLE_USER" password="123" ></security:user>-->
+        <security:intercept-url pattern="/ulogin" access="permitAll()"/>
+        <!--      允许访问  <security:intercept-url pattern="mana.sql" access="permitAll()"/>-->
+        <security:intercept-url pattern="/**" access="isFullyAuthenticated()"/>
+        <security:form-login login-page="/ulogin"/>
+    </security:http>
+
+    <security:authentication-manager>
+        <security:authentication-provider user-service-ref="userDetailService">
+<!--            <security:user-service >-->
+<!--                <security:user name="admin" authorities="ROLE_USER" password="123"></security:user>-->
 <!--            </security:user-service>-->
-<!--        </security:authentication-provider>-->
-<!--    </security:authentication-manager>-->
-    <security:http/>
+        </security:authentication-provider>
+    </security:authentication-manager>
+    <!--    <security:http/>-->
 
-    <security:user-service>
-        <security:user name="user" password="password" authorities="ROLE_USER"/>
-    </security:user-service>
+    <!--    <security:user-service>-->
+    <!--        <security:user name="user" password="password" authorities="ROLE_USER"/>-->
+    <!--    </security:user-service>-->
 </beans>

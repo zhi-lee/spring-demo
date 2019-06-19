@@ -78,13 +78,13 @@
     <div class="layui-row">
         <div class="layui-col-xs12 layui-col-sm12 layui-col-md-offset4 layui-col-md4 wrap-row">
             <div class="wrap-container">
-                <form action="" class="wrap-form" autocomplete="off">
+                <form th:action="@{/login}" class="wrap-form" autocomplete="off" method="POST">
                     <span class="wrap-login">登陆</span>
                     <div class="wrap-block wrap-spacing" data-placeholder="请输入用户名">
                         <span class="wrap-label">用户名</span>
                         <i class="layui-icon">&#xe66f;</i>
 <!--                        <span class="layui-icon layui-icon-username">&#xe66f;</span>-->
-                        <input type="text" class="wrap-input" name="name" id="name" placeholder="请输入用户名" autocomplete="off" />
+                        <input type="text" class="wrap-input" name="username" id="username" placeholder="请输入用户名" autocomplete="off" />
                     </div>
                     <div class="wrap-block" data-placeholder="请输入密码">
                         <span class="wrap-label">密码</span>
