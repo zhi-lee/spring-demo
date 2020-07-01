@@ -64,7 +64,7 @@
         <slf4j.version>1.7.21</slf4j.version>
         <servlet.version>3.0.1</servlet.version>
         <thymeleaf.version>3.0.0.RELEASE</thymeleaf.version>
-        <mysql.verision>5.1.25</mysql.verision>
+        <mysql.verision>8.0.16</mysql.verision>
         <druid.verion>0.2.23</druid.verion>
         <shiro.version>1.2.5</shiro.version>
         <spring.version>4.3.23.RELEASE</spring.version>
