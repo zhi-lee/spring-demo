@@ -67,7 +67,7 @@
         <mysql.verision>5.1.25</mysql.verision>
         <druid.verion>0.2.23</druid.verion>
         <shiro.version>1.2.5</shiro.version>
-        <spring.version>4.3.23.RELEASE</spring.version>
+        <spring.version>4.3.29.RELEASE</spring.version>
         <spring.security.version>4.2.12.RELEASE</spring.security.version>
         <swagger2.version>2.9.2</swagger2.version>
         <lombok.version>1.16.20</lombok.version>
